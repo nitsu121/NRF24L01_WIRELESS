@@ -101,11 +101,13 @@ int main(void)
   uint8_t Temp[2] = {sizeof(unsigned int), 0};
   //UART_DRV_SendData(FSL_SERIAL1, Temp, 2);
 
+  RED_RGB_ON;
+  Delay_ms(1000);
+  RED_RGB_OFF;
+
   Init_NRF24L_Reciever();
   //Init_NRF24L_Transmitter();
 
-  uint8_t Send[5] = {0, 1, 50, 51, 52};
-  uint8_t Read[5];
   RED_RGB_ON;
   Delay_ms(1000);
   RED_RGB_OFF;
@@ -114,89 +116,20 @@ int main(void)
   unsigned char ArrayIn[50];
   unsigned char ArrayOut[50];
   unsigned char PayloadOut[5]; // = //{'J', 'U', 'S', 'T', 'I'};
+
   CE_ON;
   while(1)
   {
-	  if(0 == GET_SW2)
-	  {
-		  RED_RGB_ON;
-#if 0
-		  Serial_Send_Unsigned_Number(23235);
-		  Serial_Send_String("We got a get SW2!!!! \n");
-		  Delay_ms(1000);
-		  Serial_Send_String("NRF STATUS BYTE IS: ");
-		  Delay_ms(100);
-		  //Read_Register(unsigned char RegisterNumber, unsigned char * RecieveArray, unsigned char NumOfBytesToRead)
-		  Serial_Send_Unsigned_Number(Read_Register(7, ArrayIn, 1));
-		  Delay_ms(100);
-		  Serial_Send_String("\n");
-		  Delay_ms(100);
-
-		  Read_Register(0x07, ArrayIn, 1);
-
-		  SendArray[0] = ArrayIn[0];
-		  Write_Register(0x07, SendArray, ReadArray, 1);
-
-		  Read_Register(0x07, ArrayIn, 1);
-#endif
-		  CE_OFF;
-		  //ReadPayload(unsigned char * ReadArray, unsigned char NumberOfBytesToRead);
-		  ReadPayload(NRF_Recieve_Array, 5);
-		  Serial_Send_String("We Recieved Some Bytes\n");
-		  Delay_ms(100);
-		  Serial_Send_String("We Got: ");
-		  Delay_ms(100);
-		  UART_DRV_SendData(FSL_SERIAL1, NRF_Recieve_Array, 5);
-		  //Serial_Send_Unsigned_Number(23235);
-		  Clear_NRF_Int_Flags();
-		  while(0 == GET_SW2)
-		  {
-
-		  }
-	  }
-	  else
-	  {
-		  RED_RGB_OFF;
-	  }
-
-	  if(0 == GET_SW3)
-	  {
-		  GREEN_RGB_ON;
-		  //UART_DRV_SendData(FSL_SERIAL1, String_Test, sizeof(String_Test));
-		  //UART_DRV_SendData(FSL_SERIAL1, "BOgA Fota Boga. \n", sizeof("BOgA Fota Boga. \n"));
-		  //UART_DRV_SendData(FSL_SERIAL1, Temp, 2);
-		  //Serial_Send_String("We got a get SW3!!!! \n");
-
-		  //SendNewPayload(unsigned char * PayloadArrayToSend, unsigned char NumberOfBytesToSend)
-
-		  //SendNewPayload(PayloadOut, 5);
-		  //CE_ON;
-		  while(0 == GET_SW3)
-		  {
-
-		  }
-	  }
-	  else
-	  {
-		  GREEN_RGB_OFF;
-	  }
-
-
 	  if(0 == GET_IRQ)
 	  {
 		  BLUE_RGB_ON;
-
-		  CE_OFF;
-		  //ReadPayload(unsigned char * ReadArray, unsigned char NumberOfBytesToRead);
 		  ReadPayload(NRF_Recieve_Array, 5);
 		  Serial_Send_String("We Recieved Some Bytes\n");
-		  Delay_ms(100);
+		  Delay_ms(10);
 		  Serial_Send_String("We Got: ");
-		  Delay_ms(100);
+		  Delay_ms(10);
 		  UART_DRV_SendData(FSL_SERIAL1, NRF_Recieve_Array, 5);
-		  //Serial_Send_Unsigned_Number(23235);
 		  Clear_NRF_Int_Flags();
-		  CE_ON;
 		  while(0 == GET_IRQ)
 		  {
 		  }
@@ -205,18 +138,6 @@ int main(void)
 	  {
 		  BLUE_RGB_OFF;
 	  }
-	  //GetSetInterruptFlag(unsigned char FlagNumber, unsigned char SetNotGet, unsigned char ValueToSet)
-#if 0
-	  if(GetSetInterruptFlag(5, 0, 0) & 1)
-	  {
-		  BLUE_RGB_ON;
-	  }
-	  else
-	  {
-		  BLUE_RGB_OFF;
-	  }
-#endif
-
   }
 
   /*** Don't write any code pass this line, or it will be deleted during code generation. ***/

@@ -24,97 +24,111 @@ void Clear_NRF_Int_Flags(void)
 	Write_Register(7, SendArray, ReadArray, 1); //
 }
 
+void Init_NRF24L_Reciever()
+{
+
+unsigned char TempValue = 0;
+
+  CE_OFF;
+  Delay_ms(100);
+  //Write_Register(unsigned char RegisterNumber, unsigned char * SendArray, unsigned char * RecievedArray, unsigned char NumOfBytesToRead)
+  unsigned char SendArray[10] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+  unsigned char ReadArray[10];
+
+
+  SendArray[0] = 0x26; //TX not-power-up 2_byte_CRC EnableCRC
+  //
+  //unsigned char Write_Reg_Varified(unsigned char RegisterNumber, unsigned char * SendArray, unsigned char NumOfBytesToRead)
+  Write_Reg_Varified(6, SendArray, 1);
+
+  SendArray[0] = 0x05;
+  Write_Reg_Varified(0x11, SendArray, 1);
+
+  SendArray[0] = 0x00;
+  Write_Reg_Varified(0x05, SendArray, 1);
+
+  SendArray[0] = 0x11;
+  SendArray[1] = 0x22;
+  SendArray[2] = 0x33;
+  SendArray[3] = 0x44;
+  SendArray[4] = 0x55;
+  Write_Register(0x0A, SendArray, ReadArray, 5);
+  //Write_Reg_Varified(0x0A, SendArray, 5);
+
+  SendArray[0] = 0x11;
+  SendArray[1] = 0x22;
+  SendArray[2] = 0x33;
+  SendArray[3] = 0x44;
+  SendArray[4] = 0x55;
+  Write_Register(0x10, SendArray, ReadArray, 5);
+  //Write_Reg_Varified(0x10, SendArray, 5);
+
+  SendArray[0] = 0x01;
+  Write_Reg_Varified(0x02, SendArray, 1);
+
+  Clear_NRF_Int_Flags();
+
+  SendArray[0] = 0x01;
+  Write_Reg_Varified(0x01, SendArray, 1);
+
+  SendArray[0] = 0x2F;
+  Write_Reg_Varified(0x04, SendArray, 1);
+
+  Flush_Tx();
+  Flush_Rx();
+
+  SendArray[0] = 0x0F;
+  Write_Reg_Varified(0x00, SendArray, 1);
+}
+
+#if 0
 void Init_NRF24L_Reciever(void)
 {
 
-	char TempValue = 0;
+	unsigned char TempValue = 0;
 
 	  CE_OFF;
 	  Delay_ms(100);
 	  //Write_Register(unsigned char RegisterNumber, unsigned char * SendArray, unsigned char * RecievedArray, unsigned char NumOfBytesToRead)
 	  unsigned char SendArray[2] = {0, 0};
 	  unsigned char ReadArray[2];
-	  SendArray[0] = 0b00111111;
-	  while(!(0b00111111 == TempValue))
-	  {
-		  Write_Register(0, SendArray, ReadArray, 1); // power up rf mod.
-		  Delay_ms(100);
-		  //Read_Register(unsigned char RegisterNumber, unsigned char * RecieveArray, unsigned char NumOfBytesToRead)
-		  Read_Register(0, &TempValue, 1);
-		  Delay_ms(100);
-	  }
 
+	  SendArray[0] = 0x0D;
+	  //
+	  //Write_Reg_Varified(unsigned char RegisterNumber, unsigned char * SendArray, unsigned char NumOfBytesToRead);
+	  Write_Reg_Varified(0, SendArray, 1);
+	  //
 
-	  TempValue = 10;
+	  SendArray[0] = 0x00;
+	  Write_Reg_Varified(1, SendArray, 1);
+
 	  SendArray[0] = 0x01;
-	  while(!(0x01 == TempValue))
-	  {
-		  Write_Register(1, SendArray, ReadArray, 1); // disable auto ack.
-		  Delay_ms(100);
-		  //Read_Register(unsigned char RegisterNumber, unsigned char * RecieveArray, unsigned char NumOfBytesToRead)
-		  Read_Register(1, &TempValue, 1);
-		  Delay_ms(100);
-	  }
+	  Write_Reg_Varified(2, SendArray, 1);
 
-	  TempValue = 0;
-	  SendArray[0] = 0x01;
-	  while(!(0x01 == TempValue))
-	  {
-		  Write_Register(2, SendArray, ReadArray, 1); // enable data pipe 0.
-		  Delay_ms(100);
-		  //Read_Register(unsigned char RegisterNumber, unsigned char * RecieveArray, unsigned char NumOfBytesToRead)
-		  Read_Register(2, &TempValue, 1);
-		  Delay_ms(100);
-	  }
-
-	  TempValue = 0;
 	  SendArray[0] = 0x03;
-	  while(!(0x03 == TempValue))
-	  {
-		  Write_Register(3, SendArray, ReadArray, 1); // use 5 bytes address field width.
-		  Delay_ms(100);
-		  //Read_Register(unsigned char RegisterNumber, unsigned char * RecieveArray, unsigned char NumOfBytesToRead)
-		  Read_Register(3, &TempValue, 1);
-		  Delay_ms(100);
-	  }
+	  Write_Reg_Varified(3, SendArray, 1);
 
+	  SendArray[0] = 0x02;
+	  Write_Reg_Varified(5, SendArray, 1);
 
-	  TempValue = 0;
-	  SendArray[0] = 0xFF;
-	  while(!(0xFF == TempValue))
-	  {
-		  Write_Register(0x04, SendArray, ReadArray, 1); // data payload widths for pipe0 5 bytes.
-		  Delay_ms(100);
-		  //Read_Register(unsigned char RegisterNumber, unsigned char * RecieveArray, unsigned char NumOfBytesToRead)
-		  Read_Register(0x04, &TempValue, 1);
-		  Delay_ms(100);
-	  }
+	  SendArray[0] = 0x07;
+	  Write_Reg_Varified(6, SendArray, 1);
 
-
-	  TempValue = 0;
-	  SendArray[0] = 83;
-	  while(!(0xFF == TempValue))
-	  {
-		  Write_Register(0x05, SendArray, ReadArray, 1); // data payload widths for pipe0 5 bytes.
-		  Delay_ms(100);
-		  //Read_Register(unsigned char RegisterNumber, unsigned char * RecieveArray, unsigned char NumOfBytesToRead)
-		  Read_Register(0x05, &TempValue, 1);
-		  Delay_ms(100);
-	  }
-
-
-
-	  TempValue = 0;
 	  SendArray[0] = 0x05;
-	  while(!(0x05 == TempValue))
-	  {
-		  Write_Register(0x11, SendArray, ReadArray, 1); // data payload widths for pipe0 5 bytes.
-		  Delay_ms(100);
-		  //Read_Register(unsigned char RegisterNumber, unsigned char * RecieveArray, unsigned char NumOfBytesToRead)
-		  Read_Register(0x11, &TempValue, 1);
-		  Delay_ms(100);
-	  }
+	  Write_Reg_Varified(0x11, SendArray, 1);
+
+	  SendArray[0] = 0x7F;
+	  Write_Reg_Varified(0, SendArray, 1);
+
+	  SendArray[0] = 0xE7;
+	  SendArray[1] = 0xE7;
+	  SendArray[2] = 0xE7;
+	  SendArray[3] = 0xE7;
+	  SendArray[4] = 0xE7;
+	  Write_Reg_Varified(0x0A, SendArray, 5);
 }
+#endif
+
 
 void Init_NRF24L_Transmitter(void)
 {
@@ -195,13 +209,31 @@ void Init_NRF24L_Transmitter(void)
 	  }
 }
 
+
+unsigned char Write_Reg_Varified(unsigned char RegisterNumber, unsigned char * SendArray, unsigned char NumOfBytesToRead)
+{
+	unsigned char ReturnFlag = 0;
+	unsigned char TempValue = 0;
+	unsigned char ReadArray[10];
+
+	while(!(SendArray[0] == TempValue))
+	{
+	  Write_Register(RegisterNumber, SendArray, ReadArray, NumOfBytesToRead);
+	  Delay_ms(10);
+	  Read_Register(RegisterNumber, &TempValue, NumOfBytesToRead);
+	  Delay_ms(10);
+	}
+
+	return(ReturnFlag);
+}
+
 unsigned char Read_Register(unsigned char RegisterNumber, unsigned char * RecieveArray, unsigned char NumOfBytesToRead)
 {
 	unsigned char ReturnFlag = 0;
 	unsigned char TempSendArray[50];
 	unsigned char TempReadArray[50];
 	unsigned char Counter = 0;
-	TempSendArray[0] = RegisterNumber | R_REGISTER;
+	TempSendArray[0] = RegisterNumber;
 
 	//DSPI_DRV_MasterTransferBlocking(FSL_DSPICOM1, NULL, &Send[0], Read, 5, 10000);
 	DSPI_DRV_MasterTransferBlocking(FSL_DSPICOM1, NULL, TempSendArray, TempReadArray, NumOfBytesToRead + 1, 10000);
@@ -222,7 +254,7 @@ unsigned char Write_Register(unsigned char RegisterNumber, unsigned char * SendA
 	unsigned char TempSendArray[50];
 	unsigned char TempReadArray[50];
 	unsigned char Counter = 0;
-	TempSendArray[0] = RegisterNumber | W_REGISTER;
+	TempSendArray[0] = RegisterNumber + 0x20;
 
 	while(NumOfBytesToRead > Counter)
 	{
@@ -290,7 +322,7 @@ unsigned char ReadPayload(unsigned char * ReadArray, unsigned char NumberOfBytes
 		Count++;
 	}
 
-	Flush_RX();
+	Flush_Rx();
 
 	return (ReturnFlag);
 }
@@ -332,7 +364,7 @@ unsigned char Flush_Tx()
 	return (ReturnFlag);
 }
 
-unsigned char Flush_RX()
+unsigned char Flush_Rx()
 {
 	unsigned char ReturnFlag = 0;
 	unsigned char ReadArray[2] = {0, 0};
