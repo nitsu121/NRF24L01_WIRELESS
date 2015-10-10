@@ -36,10 +36,12 @@
 #include "osa1.h"
 #include "gpio1.h"
 #include "pitTimer1.h"
-#include "flexTimer1.h"
 #include "SERIAL1.h"
 #include "dspiCom1.h"
 #include "pit100us.h"
+#include "adConv1.h"
+#include "adConv2.h"
+#include "flexTimer1.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -67,6 +69,7 @@ void SPI1_IRQHandler(void);
 
 void PIT1_IRQHandler(void);
 
+/*! adConv1 IRQ handler */
 /* END Events */
 
 #ifdef __cplusplus

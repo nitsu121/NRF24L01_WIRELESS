@@ -184,6 +184,14 @@ Module "pin_mux"   (component PinSettings)
                 provides pin initialization for selected pins during processor start-up. Selected pins are either user selected 
                 pins or pins selected in pin properties in components.  Only pins of devices  enabled for auto initialization 
                 are handled within this method.
+   - pin_mux_init_adc_pins -ADC method configures registers according to settings  of routing and electrical features. This 
+                method is enabled only if any pin of corresponding peripheral type is selected. Selected pins are either user 
+                selected pins or pins selected in pin items in components. Call this method code to route desired pins into 
+                ADC0, ADC1 peripherals.
+   - pin_mux_deinit_adc_pins -ADC method configures registers according to settings  of routing and electrical features. This 
+                method is enabled only if any pin of corresponding peripheral type is selected. Selected pins are either user 
+                selected pins or pins selected in pin items in components. Call this method code to route desired pins into 
+                ADC0, ADC1 peripherals.
    - pin_mux_init_enet_pins -ENET method configures registers according to settings  of routing and electrical features. This 
                 method is enabled only if any pin of corresponding peripheral type is selected. Selected pins are either user 
                 selected pins or pins selected in pin items in components. Call this method code to route desired pins into 
@@ -319,25 +327,6 @@ Module "pitTimer1" (component fsl_pit)
    - pitTimer1_PIT_DRV_ClearIntFlag -Clears the timer interrupt flag.
    - pitTimer1_PIT_DRV_IsIntPending -Reads the current timer timeout flag.
 
-Module "flexTimer1" (component fsl_ftm)
-   - flexTimer1_FTM_DRV_Init -Initializes the FTM driver.
-   - flexTimer1_FTM_DRV_Deinit -Shuts down the FTM driver.
-   - flexTimer1_FTM_DRV_PwmStop -Stops the channel PWM.
-   - flexTimer1_FTM_DRV_PwmStart -Configures the duty cycle and frequency and starts outputting the PWM on a specified channel .
-   - flexTimer1_FTM_DRV_QuadDecodeStart -Configures the parameters and activates the quadrature decode mode.
-   - flexTimer1_FTM_DRV_QuadDecodeStop -De-activates the quadrature decode mode.
-   - flexTimer1_FTM_DRV_CounterStart -Starts the FTM counter.
-   - flexTimer1_FTM_DRV_CounterStop -Stops the FTM counter.
-   - flexTimer1_FTM_DRV_CounterRead -Reads back the current value of the FTM counter.
-   - flexTimer1_FTM_DRV_SetClock -Set FTM clock source.
-   - flexTimer1_FTM_DRV_GetClock -Retrieves the frequency of the clock source feeding the FTM counter.
-   - flexTimer1_FTM_DRV_SetTimeOverflowIntCmd -Enables or disables the timer overflow interrupt.
-   - flexTimer1_FTM_DRV_SetFaultIntCmd -Enables or disables the fault interrupt.
-   - flexTimer1_FTM_DRV_SetupChnInputCapture -Enables capture of an input signal on the channel using the function parameters.
-   - flexTimer1_FTM_DRV_SetupChnOutputCompare -Configures the FTM to generate timed pulses.
-   - flexTimer1_FTM_DRV_SetupChnDualEdgeCapture -Configures the dual edge capture mode of the FTM.
-   - flexTimer1_FTM_DRV_IRQHandler -Action to take when an FTM interrupt is triggered.
-
 Module "SERIAL1"   (component fsl_uart)
    - SERIAL1_UART_DRV_Init -Initializes an UART instance for operation.
    - SERIAL1_UART_DRV_Deinit -Shuts down the UART by disabling interrupts and the transmitter/receiver.
@@ -389,6 +378,59 @@ Module "pit100us"  (component fsl_pit)
    - pit100us_PIT_DRV_DelayUs -Delays the specific microseconds.
    - pit100us_PIT_DRV_ClearIntFlag -Clears the timer interrupt flag.
    - pit100us_PIT_DRV_IsIntPending -Reads the current timer timeout flag.
+
+Module "adConv1"   (component fsl_adc16)
+   - adConv1_ADC16_DRV_GetAutoCalibrationParam -Gets the calibration parameters by auto calibration.
+   - adConv1_ADC16_DRV_SetCalibrationParam -Sets the calibration parameters.
+   - adConv1_ADC16_DRV_StructInitUserConfigDefault -Fills the initial user configuration by default for a one-time trigger mode.
+   - adConv1_ADC16_DRV_Init -Initializes the ADC module converter.
+   - adConv1_ADC16_DRV_Deinit -De-initializes the ADC module converter.
+   - adConv1_ADC16_DRV_ConfigHwCompare -Configures the hardware compare feature.
+   - adConv1_ADC16_DRV_ConfigHwAverage -Configures the hardware averaging feature.
+   - adConv1_ADC16_DRV_SetChnMux -Switches the channel mux.
+   - adConv1_ADC16_DRV_ConfigConvChn -Configure the conversion channel by software.
+   - adConv1_ADC16_DRV_WaitConvDone -Waits for the latest conversion to be complete.
+   - adConv1_ADC16_DRV_PauseConv -Pauses the current conversion by software.
+   - adConv1_ADC16_DRV_GetConvValueRAW -Gets the latest conversion value with no format.
+   - adConv1_ADC16_DRV_GetConvValueSigned -Gets the latest conversion value with signed.
+   - adConv1_ADC16_DRV_GetConvFlag -Gets the event status of the ADC16 module.
+   - adConv1_ADC16_DRV_GetChnFlag -Gets the event status of each channel group.
+
+Module "adConv2"   (component fsl_adc16)
+   - adConv2_ADC16_DRV_GetAutoCalibrationParam -Gets the calibration parameters by auto calibration.
+   - adConv2_ADC16_DRV_SetCalibrationParam -Sets the calibration parameters.
+   - adConv2_ADC16_DRV_StructInitUserConfigDefault -Fills the initial user configuration by default for a one-time trigger mode.
+   - adConv2_ADC16_DRV_Init -Initializes the ADC module converter.
+   - adConv2_ADC16_DRV_Deinit -De-initializes the ADC module converter.
+   - adConv2_ADC16_DRV_ConfigHwCompare -Configures the hardware compare feature.
+   - adConv2_ADC16_DRV_ConfigHwAverage -Configures the hardware averaging feature.
+   - adConv2_ADC16_DRV_SetChnMux -Switches the channel mux.
+   - adConv2_ADC16_DRV_ConfigConvChn -Configure the conversion channel by software.
+   - adConv2_ADC16_DRV_WaitConvDone -Waits for the latest conversion to be complete.
+   - adConv2_ADC16_DRV_PauseConv -Pauses the current conversion by software.
+   - adConv2_ADC16_DRV_GetConvValueRAW -Gets the latest conversion value with no format.
+   - adConv2_ADC16_DRV_GetConvValueSigned -Gets the latest conversion value with signed.
+   - adConv2_ADC16_DRV_GetConvFlag -Gets the event status of the ADC16 module.
+   - adConv2_ADC16_DRV_GetChnFlag -Gets the event status of each channel group.
+
+Module "flexTimer1" (component fsl_ftm)
+   - flexTimer1_FTM_DRV_Init -Initializes the FTM driver.
+   - flexTimer1_FTM_DRV_Deinit -Shuts down the FTM driver.
+   - flexTimer1_FTM_DRV_PwmStop -Stops the channel PWM.
+   - flexTimer1_FTM_DRV_PwmStart -Configures the duty cycle and frequency and starts outputting the PWM on a specified channel .
+   - flexTimer1_FTM_DRV_QuadDecodeStart -Configures the parameters and activates the quadrature decode mode.
+   - flexTimer1_FTM_DRV_QuadDecodeStop -De-activates the quadrature decode mode.
+   - flexTimer1_FTM_DRV_CounterStart -Starts the FTM counter.
+   - flexTimer1_FTM_DRV_CounterStop -Stops the FTM counter.
+   - flexTimer1_FTM_DRV_CounterRead -Reads back the current value of the FTM counter.
+   - flexTimer1_FTM_DRV_SetClock -Set FTM clock source.
+   - flexTimer1_FTM_DRV_GetClock -Retrieves the frequency of the clock source feeding the FTM counter.
+   - flexTimer1_FTM_DRV_SetTimeOverflowIntCmd -Enables or disables the timer overflow interrupt.
+   - flexTimer1_FTM_DRV_SetFaultIntCmd -Enables or disables the fault interrupt.
+   - flexTimer1_FTM_DRV_SetupChnInputCapture -Enables capture of an input signal on the channel using the function parameters.
+   - flexTimer1_FTM_DRV_SetupChnOutputCompare -Configures the FTM to generate timed pulses.
+   - flexTimer1_FTM_DRV_SetupChnDualEdgeCapture -Configures the dual edge capture mode of the FTM.
+   - flexTimer1_FTM_DRV_IRQHandler -Action to take when an FTM interrupt is triggered.
 
 Module "Cpu"       (component MK64FN1M0LL12_4SDK)
    - Cpu_SystemInit -This method configures the oscillator (PLL) that is part of the microcontroller device. SystemInit is 

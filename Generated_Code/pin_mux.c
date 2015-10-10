@@ -7,7 +7,7 @@
 **     Version     : Component 1.2.0, Driver 1.4, CPU db: 3.00.000
 **     Repository  : KSDK 1.2.0
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2015-08-31, 18:10, # CodeGen: 13
+**     Date/Time   : 2015-10-08, 19:04, # CodeGen: 54
 **     Abstract    :
 **
 **     Settings    :
@@ -1397,6 +1397,46 @@
 #include "pin_mux.h"
 
 
+/*FUNCTION**********************************************************************
+*
+* Function Name : init_adc_pins
+* Description   : ADC method sets registers according routing settings.
+* Call this method code to route desired pins.
+*END**************************************************************************/
+void init_adc_pins(uint32_t instance)
+{
+  switch(instance) {    
+    case ADC0_IDX:                      /* ADC0_IDX */
+      /* Affects PORTB_PCR2 register */
+      PORT_HAL_SetMuxMode(PORTB,2UL,kPortPinDisabled);
+      break;
+    case ADC1_IDX:                      /* ADC1_IDX */
+      /* Affects PORTB_PCR10 register */
+      PORT_HAL_SetMuxMode(PORTB,10UL,kPortPinDisabled);
+      break;
+    default:
+      break;
+  }
+}
+/*FUNCTION**********************************************************************
+*
+* Function Name : deinit_adc_pins
+* Description   : ADC method sets registers according routing settings.
+* Call this method code to disable routing of desired pins.
+*END**************************************************************************/
+void deinit_adc_pins(uint32_t instance)
+{
+  switch(instance) {    
+    case ADC0_IDX:                      /* ADC0_IDX */
+      PORT_HAL_SetMuxMode(PORTB,2UL,kPortPinDisabled);
+      break;
+    case ADC1_IDX:                      /* ADC1_IDX */
+      PORT_HAL_SetMuxMode(PORTB,10UL,kPortPinDisabled);
+      break;
+    default:
+      break;
+  }
+}
 
 /*FUNCTION**********************************************************************
 *
@@ -1431,10 +1471,6 @@ void init_ftm_pins(uint32_t instance)
     case FTM0_IDX:                      /* FTM0_IDX */
       /* Affects PORTC_PCR1 register */
       PORT_HAL_SetMuxMode(PORTC,1UL,kPortMuxAlt4);
-      /* Affects PORTA_PCR19 register */
-      PORT_HAL_SetMuxMode(PORTA,19UL,kPortMuxAlt4);
-      /* Affects PORTB_PCR3 register */
-      PORT_HAL_SetMuxMode(PORTB,3UL,kPortMuxAlt6);
       break;
     default:
       break;
@@ -1451,8 +1487,6 @@ void deinit_ftm_pins(uint32_t instance)
   switch(instance) {    
     case FTM0_IDX:                      /* FTM0_IDX */
       PORT_HAL_SetMuxMode(PORTC,1UL,kPortPinDisabled);
-      PORT_HAL_SetMuxMode(PORTA,19UL,kPortPinDisabled);
-      PORT_HAL_SetMuxMode(PORTB,3UL,kPortPinDisabled);
       break;
     default:
       break;

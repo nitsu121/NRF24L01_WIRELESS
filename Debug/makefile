@@ -24,12 +24,14 @@ RM := rm -rf
 -include SDK/platform/hal/src/gpio/subdir.mk
 -include SDK/platform/hal/src/ftm/subdir.mk
 -include SDK/platform/hal/src/dspi/subdir.mk
+-include SDK/platform/hal/src/adc16/subdir.mk
 -include SDK/platform/drivers/src/uart/subdir.mk
 -include SDK/platform/drivers/src/rtc/subdir.mk
 -include SDK/platform/drivers/src/pit/subdir.mk
 -include SDK/platform/drivers/src/gpio/subdir.mk
 -include SDK/platform/drivers/src/ftm/subdir.mk
 -include SDK/platform/drivers/src/dspi/subdir.mk
+-include SDK/platform/drivers/src/adc16/subdir.mk
 -include SDK/platform/devices/MK64F12/startup/gcc/subdir.mk
 -include SDK/platform/devices/MK64F12/startup/subdir.mk
 -include SDK/platform/devices/subdir.mk

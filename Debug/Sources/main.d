@@ -31,24 +31,28 @@ Sources/main.o: ../Sources/main.c \
  C:/freescale/workspace.kds/TestKSDKProjectSerial/SDK/platform/drivers/inc/fsl_gpio_driver.h \
  C:/freescale/workspace.kds/TestKSDKProjectSerial/SDK/platform/hal/inc/fsl_pit_hal.h \
  C:/freescale/workspace.kds/TestKSDKProjectSerial/SDK/platform/drivers/inc/fsl_pit_driver.h \
- C:/freescale/workspace.kds/TestKSDKProjectSerial/SDK/platform/hal/inc/fsl_ftm_hal.h \
- C:/freescale/workspace.kds/TestKSDKProjectSerial/SDK/platform/drivers/inc/fsl_ftm_driver.h \
  C:/freescale/workspace.kds/TestKSDKProjectSerial/SDK/platform/hal/inc/fsl_uart_hal.h \
  C:/freescale/workspace.kds/TestKSDKProjectSerial/SDK/platform/drivers/inc/fsl_uart_driver.h \
  C:/freescale/workspace.kds/TestKSDKProjectSerial/SDK/platform/hal/inc/fsl_dspi_hal.h \
  C:/freescale/workspace.kds/TestKSDKProjectSerial/SDK/platform/drivers/inc/fsl_dspi_master_driver.h \
  C:/freescale/workspace.kds/TestKSDKProjectSerial/SDK/platform/drivers/inc/fsl_dspi_slave_driver.h \
  C:/freescale/workspace.kds/TestKSDKProjectSerial/SDK/platform/drivers/inc/fsl_dspi_shared_function.h \
+ C:/freescale/workspace.kds/TestKSDKProjectSerial/SDK/platform/hal/inc/fsl_adc16_hal.h \
+ C:/freescale/workspace.kds/TestKSDKProjectSerial/SDK/platform/drivers/inc/fsl_adc16_driver.h \
+ C:/freescale/workspace.kds/TestKSDKProjectSerial/SDK/platform/hal/inc/fsl_ftm_hal.h \
+ C:/freescale/workspace.kds/TestKSDKProjectSerial/SDK/platform/drivers/inc/fsl_ftm_driver.h \
  ../Sources/Events.h \
  C:/freescale/workspace.kds/TestKSDKProjectSerial/Generated_Code/clockMan1.h \
  C:/freescale/workspace.kds/TestKSDKProjectSerial/Generated_Code/pin_mux.h \
  C:/freescale/workspace.kds/TestKSDKProjectSerial/Generated_Code/osa1.h \
  C:/freescale/workspace.kds/TestKSDKProjectSerial/Generated_Code/gpio1.h \
  C:/freescale/workspace.kds/TestKSDKProjectSerial/Generated_Code/pitTimer1.h \
- C:/freescale/workspace.kds/TestKSDKProjectSerial/Generated_Code/flexTimer1.h \
  C:/freescale/workspace.kds/TestKSDKProjectSerial/Generated_Code/SERIAL1.h \
  C:/freescale/workspace.kds/TestKSDKProjectSerial/Generated_Code/dspiCom1.h \
  C:/freescale/workspace.kds/TestKSDKProjectSerial/Generated_Code/pit100us.h \
+ C:/freescale/workspace.kds/TestKSDKProjectSerial/Generated_Code/adConv1.h \
+ C:/freescale/workspace.kds/TestKSDKProjectSerial/Generated_Code/adConv2.h \
+ C:/freescale/workspace.kds/TestKSDKProjectSerial/Generated_Code/flexTimer1.h \
  ../Sources/NRF24L01_DRIVER.h ../Sources/Serial_Driver.h
 
 C:/freescale/workspace.kds/TestKSDKProjectSerial/Generated_Code/Cpu.h:
@@ -115,10 +119,6 @@ C:/freescale/workspace.kds/TestKSDKProjectSerial/SDK/platform/hal/inc/fsl_pit_ha
 
 C:/freescale/workspace.kds/TestKSDKProjectSerial/SDK/platform/drivers/inc/fsl_pit_driver.h:
 
-C:/freescale/workspace.kds/TestKSDKProjectSerial/SDK/platform/hal/inc/fsl_ftm_hal.h:
-
-C:/freescale/workspace.kds/TestKSDKProjectSerial/SDK/platform/drivers/inc/fsl_ftm_driver.h:
-
 C:/freescale/workspace.kds/TestKSDKProjectSerial/SDK/platform/hal/inc/fsl_uart_hal.h:
 
 C:/freescale/workspace.kds/TestKSDKProjectSerial/SDK/platform/drivers/inc/fsl_uart_driver.h:
@@ -130,6 +130,14 @@ C:/freescale/workspace.kds/TestKSDKProjectSerial/SDK/platform/drivers/inc/fsl_ds
 C:/freescale/workspace.kds/TestKSDKProjectSerial/SDK/platform/drivers/inc/fsl_dspi_slave_driver.h:
 
 C:/freescale/workspace.kds/TestKSDKProjectSerial/SDK/platform/drivers/inc/fsl_dspi_shared_function.h:
+
+C:/freescale/workspace.kds/TestKSDKProjectSerial/SDK/platform/hal/inc/fsl_adc16_hal.h:
+
+C:/freescale/workspace.kds/TestKSDKProjectSerial/SDK/platform/drivers/inc/fsl_adc16_driver.h:
+
+C:/freescale/workspace.kds/TestKSDKProjectSerial/SDK/platform/hal/inc/fsl_ftm_hal.h:
+
+C:/freescale/workspace.kds/TestKSDKProjectSerial/SDK/platform/drivers/inc/fsl_ftm_driver.h:
 
 ../Sources/Events.h:
 
@@ -143,13 +151,17 @@ C:/freescale/workspace.kds/TestKSDKProjectSerial/Generated_Code/gpio1.h:
 
 C:/freescale/workspace.kds/TestKSDKProjectSerial/Generated_Code/pitTimer1.h:
 
-C:/freescale/workspace.kds/TestKSDKProjectSerial/Generated_Code/flexTimer1.h:
-
 C:/freescale/workspace.kds/TestKSDKProjectSerial/Generated_Code/SERIAL1.h:
 
 C:/freescale/workspace.kds/TestKSDKProjectSerial/Generated_Code/dspiCom1.h:
 
 C:/freescale/workspace.kds/TestKSDKProjectSerial/Generated_Code/pit100us.h:
+
+C:/freescale/workspace.kds/TestKSDKProjectSerial/Generated_Code/adConv1.h:
+
+C:/freescale/workspace.kds/TestKSDKProjectSerial/Generated_Code/adConv2.h:
+
+C:/freescale/workspace.kds/TestKSDKProjectSerial/Generated_Code/flexTimer1.h:
 
 ../Sources/NRF24L01_DRIVER.h:
 

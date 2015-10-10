@@ -28,14 +28,16 @@ Generated_Code/osa1.o: ../Generated_Code/osa1.c ../Generated_Code/osa1.h \
  C:/freescale/workspace.kds/TestKSDKProjectSerial/SDK/platform/drivers/inc/fsl_gpio_driver.h \
  C:/freescale/workspace.kds/TestKSDKProjectSerial/SDK/platform/hal/inc/fsl_pit_hal.h \
  C:/freescale/workspace.kds/TestKSDKProjectSerial/SDK/platform/drivers/inc/fsl_pit_driver.h \
- C:/freescale/workspace.kds/TestKSDKProjectSerial/SDK/platform/hal/inc/fsl_ftm_hal.h \
- C:/freescale/workspace.kds/TestKSDKProjectSerial/SDK/platform/drivers/inc/fsl_ftm_driver.h \
  C:/freescale/workspace.kds/TestKSDKProjectSerial/SDK/platform/hal/inc/fsl_uart_hal.h \
  C:/freescale/workspace.kds/TestKSDKProjectSerial/SDK/platform/drivers/inc/fsl_uart_driver.h \
  C:/freescale/workspace.kds/TestKSDKProjectSerial/SDK/platform/hal/inc/fsl_dspi_hal.h \
  C:/freescale/workspace.kds/TestKSDKProjectSerial/SDK/platform/drivers/inc/fsl_dspi_master_driver.h \
  C:/freescale/workspace.kds/TestKSDKProjectSerial/SDK/platform/drivers/inc/fsl_dspi_slave_driver.h \
- C:/freescale/workspace.kds/TestKSDKProjectSerial/SDK/platform/drivers/inc/fsl_dspi_shared_function.h
+ C:/freescale/workspace.kds/TestKSDKProjectSerial/SDK/platform/drivers/inc/fsl_dspi_shared_function.h \
+ C:/freescale/workspace.kds/TestKSDKProjectSerial/SDK/platform/hal/inc/fsl_adc16_hal.h \
+ C:/freescale/workspace.kds/TestKSDKProjectSerial/SDK/platform/drivers/inc/fsl_adc16_driver.h \
+ C:/freescale/workspace.kds/TestKSDKProjectSerial/SDK/platform/hal/inc/fsl_ftm_hal.h \
+ C:/freescale/workspace.kds/TestKSDKProjectSerial/SDK/platform/drivers/inc/fsl_ftm_driver.h
 
 ../Generated_Code/osa1.h:
 
@@ -99,10 +101,6 @@ C:/freescale/workspace.kds/TestKSDKProjectSerial/SDK/platform/hal/inc/fsl_pit_ha
 
 C:/freescale/workspace.kds/TestKSDKProjectSerial/SDK/platform/drivers/inc/fsl_pit_driver.h:
 
-C:/freescale/workspace.kds/TestKSDKProjectSerial/SDK/platform/hal/inc/fsl_ftm_hal.h:
-
-C:/freescale/workspace.kds/TestKSDKProjectSerial/SDK/platform/drivers/inc/fsl_ftm_driver.h:
-
 C:/freescale/workspace.kds/TestKSDKProjectSerial/SDK/platform/hal/inc/fsl_uart_hal.h:
 
 C:/freescale/workspace.kds/TestKSDKProjectSerial/SDK/platform/drivers/inc/fsl_uart_driver.h:
@@ -114,3 +112,11 @@ C:/freescale/workspace.kds/TestKSDKProjectSerial/SDK/platform/drivers/inc/fsl_ds
 C:/freescale/workspace.kds/TestKSDKProjectSerial/SDK/platform/drivers/inc/fsl_dspi_slave_driver.h:
 
 C:/freescale/workspace.kds/TestKSDKProjectSerial/SDK/platform/drivers/inc/fsl_dspi_shared_function.h:
+
+C:/freescale/workspace.kds/TestKSDKProjectSerial/SDK/platform/hal/inc/fsl_adc16_hal.h:
+
+C:/freescale/workspace.kds/TestKSDKProjectSerial/SDK/platform/drivers/inc/fsl_adc16_driver.h:
+
+C:/freescale/workspace.kds/TestKSDKProjectSerial/SDK/platform/hal/inc/fsl_ftm_hal.h:
+
+C:/freescale/workspace.kds/TestKSDKProjectSerial/SDK/platform/drivers/inc/fsl_ftm_driver.h:

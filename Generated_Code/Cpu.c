@@ -8,7 +8,7 @@
 **     Repository  : KSDK 1.2.0
 **     Datasheet   : K64P144M120SF5RM, Rev.2, January 2014
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2015-09-01, 11:45, # CodeGen: 17
+**     Date/Time   : 2015-10-08, 19:00, # CodeGen: 53
 **     Abstract    :
 **
 **     Settings    :
@@ -117,14 +117,6 @@ void Components_Init(void)
   PIT_DRV_InitChannel(FSL_PITTIMER1,FSL_PITTIMER1_CHANNEL,&pitTimer1_InitConfig0);
   PIT_DRV_StartTimer(FSL_PITTIMER1,FSL_PITTIMER1_CHANNEL);
   /*! pitTimer1 Auto initialization end */
-  /*! flexTimer1 Auto initialization start */
-  FTM_DRV_Init(FSL_FLEXTIMER1,&flexTimer1_InitConfig0);
-  FTM_DRV_SetClock(FSL_FLEXTIMER1, kClock_source_FTM_SystemClk, kFtmDividedBy1);
-  FTM_DRV_PwmStart(FSL_FLEXTIMER1,&flexTimer1_ChnConfig0,0U);
-  FTM_DRV_SetTimeOverflowIntCmd(FSL_FLEXTIMER1,false);
-  FTM_DRV_SetFaultIntCmd(FSL_FLEXTIMER1,false);
-  /*! flexTimer1 Auto initialization end */
-  
   /*! SERIAL1 Auto initialization start */
   UART_DRV_Init(FSL_SERIAL1,&SERIAL1_State,&SERIAL1_InitConfig0);
   /*! SERIAL1 Auto initialization end */
@@ -139,6 +131,24 @@ void Components_Init(void)
   PIT_DRV_InitChannel(FSL_PIT100US,FSL_PIT100US_CHANNEL,&pit100us_InitConfig0);
   PIT_DRV_StartTimer(FSL_PIT100US,FSL_PIT100US_CHANNEL);
   /*! pit100us Auto initialization end */
+  /*! adConv1 Auto initialization start */
+  ADC16_DRV_Init(FSL_ADCONV1, &adConv1_InitConfig0);
+  ADC16_DRV_ConfigConvChn(FSL_ADCONV1, 0U, &adConv1_ChnConfig0);
+  /*! adConv1 Auto initialization end */
+  
+  /*! adConv2 Auto initialization start */
+  ADC16_DRV_Init(FSL_ADCONV2, &adConv2_InitConfig0);
+  ADC16_DRV_ConfigConvChn(FSL_ADCONV2, 0U, &adConv2_ChnConfig0);
+  /*! adConv2 Auto initialization end */
+  
+  /*! flexTimer1 Auto initialization start */
+  FTM_DRV_Init(FSL_FLEXTIMER1,&flexTimer1_InitConfig0);
+  FTM_DRV_SetClock(FSL_FLEXTIMER1, kClock_source_FTM_SystemClk, kFtmDividedBy128);
+  FTM_DRV_PwmStart(FSL_FLEXTIMER1,&flexTimer1_ChnConfig0,0U);
+  FTM_DRV_SetTimeOverflowIntCmd(FSL_FLEXTIMER1,false);
+  FTM_DRV_SetFaultIntCmd(FSL_FLEXTIMER1,false);
+  /*! flexTimer1 Auto initialization end */
+  
 }
 #endif /* CPU_COMPONENTS_INIT */
 

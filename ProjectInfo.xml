@@ -55,12 +55,14 @@
       <Path>C:\freescale\workspace.kds\TestKSDKProjectSerial\Generated_Code\</Path>
       <Path>C:\freescale\workspace.kds\TestKSDKProjectSerial\SDK\platform\devices\MK64F12\startup\</Path>
       <Path>C:\freescale\workspace.kds\TestKSDKProjectSerial\SDK\platform\devices\</Path>
+      <Path>C:\freescale\workspace.kds\TestKSDKProjectSerial\SDK\platform\drivers\src\adc16\</Path>
       <Path>C:\freescale\workspace.kds\TestKSDKProjectSerial\SDK\platform\drivers\src\dspi\</Path>
       <Path>C:\freescale\workspace.kds\TestKSDKProjectSerial\SDK\platform\drivers\src\ftm\</Path>
       <Path>C:\freescale\workspace.kds\TestKSDKProjectSerial\SDK\platform\drivers\src\gpio\</Path>
       <Path>C:\freescale\workspace.kds\TestKSDKProjectSerial\SDK\platform\drivers\src\pit\</Path>
       <Path>C:\freescale\workspace.kds\TestKSDKProjectSerial\SDK\platform\drivers\src\rtc\</Path>
       <Path>C:\freescale\workspace.kds\TestKSDKProjectSerial\SDK\platform\drivers\src\uart\</Path>
+      <Path>C:\freescale\workspace.kds\TestKSDKProjectSerial\SDK\platform\hal\src\adc16\</Path>
       <Path>C:\freescale\workspace.kds\TestKSDKProjectSerial\SDK\platform\hal\src\dspi\</Path>
       <Path>C:\freescale\workspace.kds\TestKSDKProjectSerial\SDK\platform\hal\src\ftm\</Path>
       <Path>C:\freescale\workspace.kds\TestKSDKProjectSerial\SDK\platform\hal\src\gpio\</Path>
@@ -84,6 +86,8 @@
     <GeneratedCs>
       <PathName>C:\freescale\workspace.kds\TestKSDKProjectSerial\Generated_Code\Cpu.c</PathName>
       <PathName>C:\freescale\workspace.kds\TestKSDKProjectSerial\Generated_Code\SERIAL1.c</PathName>
+      <PathName>C:\freescale\workspace.kds\TestKSDKProjectSerial\Generated_Code\adConv1.c</PathName>
+      <PathName>C:\freescale\workspace.kds\TestKSDKProjectSerial\Generated_Code\adConv2.c</PathName>
       <PathName>C:\freescale\workspace.kds\TestKSDKProjectSerial\Generated_Code\clockMan1.c</PathName>
       <PathName>C:\freescale\workspace.kds\TestKSDKProjectSerial\Generated_Code\dspiCom1.c</PathName>
       <PathName>C:\freescale\workspace.kds\TestKSDKProjectSerial\Generated_Code\flexTimer1.c</PathName>
@@ -95,6 +99,8 @@
       <PathName>C:\freescale\workspace.kds\TestKSDKProjectSerial\Generated_Code\pitTimer1.c</PathName>
       <PathName>C:\freescale\workspace.kds\TestKSDKProjectSerial\SDK\platform\devices\MK64F12\startup\system_MK64F12.c</PathName>
       <PathName>C:\freescale\workspace.kds\TestKSDKProjectSerial\SDK\platform\devices\startup.c</PathName>
+      <PathName>C:\freescale\workspace.kds\TestKSDKProjectSerial\SDK\platform\drivers\src\adc16\fsl_adc16_common.c</PathName>
+      <PathName>C:\freescale\workspace.kds\TestKSDKProjectSerial\SDK\platform\drivers\src\adc16\fsl_adc16_driver.c</PathName>
       <PathName>C:\freescale\workspace.kds\TestKSDKProjectSerial\SDK\platform\drivers\src\dspi\fsl_dspi_common.c</PathName>
       <PathName>C:\freescale\workspace.kds\TestKSDKProjectSerial\SDK\platform\drivers\src\dspi\fsl_dspi_master_driver.c</PathName>
       <PathName>C:\freescale\workspace.kds\TestKSDKProjectSerial\SDK\platform\drivers\src\dspi\fsl_dspi_shared_function.c</PathName>
@@ -108,6 +114,7 @@
       <PathName>C:\freescale\workspace.kds\TestKSDKProjectSerial\SDK\platform\drivers\src\rtc\fsl_rtc_common.c</PathName>
       <PathName>C:\freescale\workspace.kds\TestKSDKProjectSerial\SDK\platform\drivers\src\uart\fsl_uart_common.c</PathName>
       <PathName>C:\freescale\workspace.kds\TestKSDKProjectSerial\SDK\platform\drivers\src\uart\fsl_uart_driver.c</PathName>
+      <PathName>C:\freescale\workspace.kds\TestKSDKProjectSerial\SDK\platform\hal\src\adc16\fsl_adc16_hal.c</PathName>
       <PathName>C:\freescale\workspace.kds\TestKSDKProjectSerial\SDK\platform\hal\src\dspi\fsl_dspi_hal.c</PathName>
       <PathName>C:\freescale\workspace.kds\TestKSDKProjectSerial\SDK\platform\hal\src\ftm\fsl_ftm_hal.c</PathName>
       <PathName>C:\freescale\workspace.kds\TestKSDKProjectSerial\SDK\platform\hal\src\gpio\fsl_gpio_hal.c</PathName>
@@ -135,6 +142,8 @@
       <PathName>C:\freescale\workspace.kds\TestKSDKProjectSerial\Generated_Code\PE_low_level_init.h</PathName>
       <PathName>C:\freescale\workspace.kds\TestKSDKProjectSerial\Generated_Code\SDK\platform\devices\MK64F12\startup\system_MK64F12.h</PathName>
       <PathName>C:\freescale\workspace.kds\TestKSDKProjectSerial\Generated_Code\SERIAL1.h</PathName>
+      <PathName>C:\freescale\workspace.kds\TestKSDKProjectSerial\Generated_Code\adConv1.h</PathName>
+      <PathName>C:\freescale\workspace.kds\TestKSDKProjectSerial\Generated_Code\adConv2.h</PathName>
       <PathName>C:\freescale\workspace.kds\TestKSDKProjectSerial\Generated_Code\board.h</PathName>
       <PathName>C:\freescale\workspace.kds\TestKSDKProjectSerial\Generated_Code\clockMan1.h</PathName>
       <PathName>C:\freescale\workspace.kds\TestKSDKProjectSerial\Generated_Code\dspiCom1.h</PathName>
@@ -157,6 +166,7 @@
       <PathName>C:\freescale\workspace.kds\TestKSDKProjectSerial\SDK\platform\devices\MK64F12\include\fsl_bitaccess.h</PathName>
       <PathName>C:\freescale\workspace.kds\TestKSDKProjectSerial\SDK\platform\devices\fsl_device_registers.h</PathName>
       <PathName>C:\freescale\workspace.kds\TestKSDKProjectSerial\SDK\platform\devices\startup.h</PathName>
+      <PathName>C:\freescale\workspace.kds\TestKSDKProjectSerial\SDK\platform\drivers\inc\fsl_adc16_driver.h</PathName>
       <PathName>C:\freescale\workspace.kds\TestKSDKProjectSerial\SDK\platform\drivers\inc\fsl_dspi_master_driver.h</PathName>
       <PathName>C:\freescale\workspace.kds\TestKSDKProjectSerial\SDK\platform\drivers\inc\fsl_dspi_shared_function.h</PathName>
       <PathName>C:\freescale\workspace.kds\TestKSDKProjectSerial\SDK\platform\drivers\inc\fsl_dspi_slave_driver.h</PathName>
@@ -164,6 +174,7 @@
       <PathName>C:\freescale\workspace.kds\TestKSDKProjectSerial\SDK\platform\drivers\inc\fsl_gpio_driver.h</PathName>
       <PathName>C:\freescale\workspace.kds\TestKSDKProjectSerial\SDK\platform\drivers\inc\fsl_pit_driver.h</PathName>
       <PathName>C:\freescale\workspace.kds\TestKSDKProjectSerial\SDK\platform\drivers\inc\fsl_uart_driver.h</PathName>
+      <PathName>C:\freescale\workspace.kds\TestKSDKProjectSerial\SDK\platform\hal\inc\fsl_adc16_hal.h</PathName>
       <PathName>C:\freescale\workspace.kds\TestKSDKProjectSerial\SDK\platform\hal\inc\fsl_dspi_hal.h</PathName>
       <PathName>C:\freescale\workspace.kds\TestKSDKProjectSerial\SDK\platform\hal\inc\fsl_ftm_hal.h</PathName>
       <PathName>C:\freescale\workspace.kds\TestKSDKProjectSerial\SDK\platform\hal\inc\fsl_gpio_hal.h</PathName>

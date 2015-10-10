@@ -24,6 +24,87 @@ void Clear_NRF_Int_Flags(void)
 	Write_Register(7, SendArray, ReadArray, 1); //
 }
 
+
+void Set_NRF24L_Rx_Mode()
+{
+	CE_OFF;
+	Delay_ms(100);
+	unsigned char SendArray[10] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+
+	Flush_Tx();
+	Flush_Rx();
+
+	SendArray[0] = 0x0F;
+	Write_Reg_Varified(0x00, SendArray, 1);
+
+	CE_ON;
+}
+
+void Set_NRF24L_Tx_Mode()
+{
+	CE_OFF;
+	Delay_ms(100);
+	unsigned char SendArray[10] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+
+	Flush_Tx();
+	Flush_Rx();
+
+	SendArray[0] = 0x0E;
+	Write_Reg_Varified(0x00, SendArray, 1);
+}
+
+
+
+void Init_NRF24L(void)
+{
+	  CE_OFF;
+	  Delay_ms(100);
+	  unsigned char SendArray[10] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+	  unsigned char ReadArray[10];
+
+
+	  SendArray[0] = 0x26; //TX not-power-up 2_byte_CRC EnableCRC
+	  Write_Reg_Varified(6, SendArray, 1);
+
+	  SendArray[0] = 0x05;
+	  Write_Reg_Varified(0x11, SendArray, 1);
+
+	  SendArray[0] = 0x00;
+	  Write_Reg_Varified(0x05, SendArray, 1);
+
+	  SendArray[0] = 0x11;
+	  SendArray[1] = 0x22;
+	  SendArray[2] = 0x33;
+	  SendArray[3] = 0x44;
+	  SendArray[4] = 0x55;
+	  Write_Register(0x0A, SendArray, ReadArray, 5);
+
+	  SendArray[0] = 0x11;
+	  SendArray[1] = 0x22;
+	  SendArray[2] = 0x33;
+	  SendArray[3] = 0x44;
+	  SendArray[4] = 0x55;
+	  Write_Register(0x10, SendArray, ReadArray, 5);
+
+	  SendArray[0] = 0x01;
+	  Write_Reg_Varified(0x02, SendArray, 1);
+
+	  Clear_NRF_Int_Flags();
+
+	  SendArray[0] = 0x01;
+	  Write_Reg_Varified(0x01, SendArray, 1);
+
+	  SendArray[0] = 0x2F;
+	  Write_Reg_Varified(0x04, SendArray, 1);
+
+	  Flush_Tx();
+	  Flush_Rx();
+
+	  SendArray[0] = 0x0E;
+	  Write_Reg_Varified(0x00, SendArray, 1);
+}
+
+
 void Init_NRF24L_Reciever()
 {
 
@@ -332,10 +413,14 @@ unsigned char SendNewPayload(unsigned char * PayloadArrayToSend, unsigned char N
 	unsigned char ReturnFlag = 0;
 	unsigned char TempSendArray[50];
 	unsigned char TempReadArray[50];
+	unsigned char SendArray[10];
+	unsigned char ReadArray[10];
 	unsigned char Counter = 0;
 
+	SendArray[0] = 0x0E; //TX not-power-up 2_byte_CRC EnableCRC
+	Write_Register(0, SendArray, ReadArray, 1); // power up rf mod.
 	Flush_Tx();
-
+	Flush_Rx();
 	TempSendArray[0] = W_TX_PAYLOAD;
 
 	while(NumberOfBytesToSend > Counter)
@@ -348,7 +433,7 @@ unsigned char SendNewPayload(unsigned char * PayloadArrayToSend, unsigned char N
 	ReturnFlag = TempReadArray[0];
 
 	CE_ON;
-	Delay_ms(10);
+	Delay_ms(1);
 	CE_OFF;
 
 	return (ReturnFlag);

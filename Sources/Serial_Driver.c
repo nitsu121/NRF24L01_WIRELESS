@@ -72,3 +72,44 @@ unsigned char Serial_Send_Unsigned_Number(unsigned int NumberToSend)
 	}
 	return (ReturnFlag);
 }
+
+unsigned char Recieve_Bytes_In(unsigned char * ReadArray, unsigned char MaxArraySize)
+{
+	unsigned char NumOfBytesRx = 0;
+	unsigned char FailSafeReadArray;
+
+	  if(1 == UART_HAL_IsRxFifoEmpty(UART1_BASE_PTR)) // this means its empty.
+	  {
+	  }
+	  else  // got something
+	  {
+		  while(0 == UART_HAL_IsRxFifoEmpty(UART1_BASE_PTR)) // keep going one byte at a time till we gots it all.
+		  {
+			  if(MaxArraySize > NumOfBytesRx)
+			  {
+				  UART_DRV_ReceiveDataBlocking(FSL_SERIAL1, &ReadArray[NumOfBytesRx], 1, 100);
+				  NumOfBytesRx++;
+			  }
+			  else
+			  {
+				  UART_DRV_ReceiveDataBlocking(FSL_SERIAL1, &FailSafeReadArray, 1, 50);
+				  NumOfBytesRx = 0;
+			  }
+
+			  UART_DRV_SendData(FSL_SERIAL1, &ReadArray[NumOfBytesRx], 1);
+			  Delay_ms(10);
+		  }
+	  }
+
+	return (NumOfBytesRx);
+}
+
+unsigned char Recieve_Command_In(struct SERIAL_COMMAND * RecieveCommand)
+{
+	unsigned char GotValidCommand = 0;
+
+
+
+	return (GotValidCommand);
+}
+

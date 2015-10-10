@@ -7,7 +7,7 @@
 **     Version     : Component 1.2.0, Driver 1.4, CPU db: 3.00.000
 **     Repository  : KSDK 1.2.0
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2015-08-31, 18:10, # CodeGen: 13
+**     Date/Time   : 2015-10-08, 19:00, # CodeGen: 53
 **     Abstract    :
 **
 **     Settings    :
@@ -1347,6 +1347,8 @@
 **              fsl_mcg_hal                                : fsl_mcg_hal
 **     Contents    :
 **         hardware_init          - void hardware_init(void);
+**         init_adc_pins          - void init_adc_pins(uint32_t instance);
+**         deinit_adc_pins        - void deinit_adc_pins(uint32_t instance);
 **         init_enet_pins         - void init_enet_pins(uint32_t instance);
 **         deinit_enet_pins       - void deinit_enet_pins(uint32_t instance);
 **         init_ftm_pins          - void init_ftm_pins(uint32_t instance);

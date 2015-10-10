@@ -282,20 +282,6 @@
       <EmptySection_DummyValue />
     </Events>
   </Bean>
-  <Bean name="flexTimer1" type="fsl_ftm">
-    <Enabled v="Y" />
-    <Properties>
-      <Component_name v="flexTimer1" />
-      <Device v="FTM0" />
-      <Component_version v="1.2.0" />
-    </Properties>
-    <Methods>
-      <EmptySection_DummyValue />
-    </Methods>
-    <Events>
-      <EmptySection_DummyValue />
-    </Events>
-  </Bean>
   <Bean name="SERIAL1" type="fsl_uart">
     <Enabled v="Y" />
     <Properties>
@@ -315,6 +301,50 @@
     <Properties>
       <Component_name v="dspiCom1" />
       <Device v="SPI1" />
+      <Component_version v="1.2.0" />
+    </Properties>
+    <Methods>
+      <EmptySection_DummyValue />
+    </Methods>
+    <Events>
+      <EmptySection_DummyValue />
+    </Events>
+  </Bean>
+  <Bean name="pit100us" type="fsl_pit">
+    <Enabled v="Y" />
+    <Properties>
+      <Component_name v="pit100us" />
+      <Device v="PIT" />
+      <Counter v="PIT_CVAL1" />
+      <Counter_type v="Down counter" />
+      <Component_version v="1.2.0" />
+    </Properties>
+    <Methods>
+      <EmptySection_DummyValue />
+    </Methods>
+    <Events>
+      <EmptySection_DummyValue />
+    </Events>
+  </Bean>
+  <Bean name="adConv1" type="fsl_adc16">
+    <Enabled v="Y" />
+    <Properties>
+      <Component_name v="adConv1" />
+      <Device v="ADC0" />
+      <Component_version v="1.2.0" />
+    </Properties>
+    <Methods>
+      <EmptySection_DummyValue />
+    </Methods>
+    <Events>
+      <EmptySection_DummyValue />
+    </Events>
+  </Bean>
+  <Bean name="adConv2" type="fsl_adc16">
+    <Enabled v="Y" />
+    <Properties>
+      <Component_name v="adConv2" />
+      <Device v="ADC1" />
       <Component_version v="1.2.0" />
     </Properties>
     <Methods>

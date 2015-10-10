@@ -299,7 +299,7 @@
 			<tr bgcolor='#C7A886'><td>OSC</td><td>extal</td><td>alt0</td><td>Input</td></tr>
 			<tr>
 				<td>51</td><td>XTAL0/PTA19/FTM1_FLT0/FTM_CLKIN1/LPTMR0_ALT1</td><td><small><i>same</i></small></td>
-				<td bgcolor='#86DAFF'>FTM0</td><td bgcolor='#86DAFF'>tmr_clk</td><td bgcolor='#86DAFF'>alt4</td><td bgcolor='#86DAFF'>Input</td>
+				<td bgcolor='#C7A886'>OSC</td><td bgcolor='#C7A886'>xtal</td><td bgcolor='#C7A886'>alt0</td><td bgcolor='#C7A886'>Output</td>
 			</tr>
 			<tr>
 				<td>52</td><td>RESET_b</td><td><small><i>same</i></small></td>
@@ -321,7 +321,7 @@
 			</tr>
 			<tr>
 				<td>56</td><td>ADC0_SE13/PTB3/I2C0_SDA/UART0_CTS_b/UART0_COL_b/ENET0_1588_TMR1/FTM0_FLT0</td><td><small><i>same</i></small></td>
-				<td bgcolor='#86DAFF'>FTM0</td><td bgcolor='#86DAFF'>tmr_trigger2</td><td bgcolor='#86DAFF'>alt6</td><td bgcolor='#86DAFF'>Input</td>
+				<td bgcolor='#F8FF9A'>ADC0</td><td bgcolor='#F8FF9A'>adc_se13</td><td bgcolor='#F8FF9A'>alt0</td><td bgcolor='#F8FF9A'>Input</td>
 			</tr>
 			<tr>
 				<td>57</td><td>PTB9/SPI1_PCS1/UART3_CTS_b/FB_AD20</td><td><small><i>same</i></small></td>
@@ -2032,7 +2032,7 @@
 			<tr bgcolor='#C7A886'><td>OSC</td><td>extal</td><td>alt0</td><td>Input</td></tr>
 			<tr>
 				<td>51</td><td>XTAL0/PTA19/FTM1_FLT0/FTM_CLKIN1/LPTMR0_ALT1</td><td><small><i>same</i></small></td>
-				<td bgcolor='#86DAFF'>FTM0</td><td bgcolor='#86DAFF'>tmr_clk</td><td bgcolor='#86DAFF'>alt4</td><td bgcolor='#86DAFF'>Input</td>
+				<td bgcolor='#C7A886'>OSC</td><td bgcolor='#C7A886'>xtal</td><td bgcolor='#C7A886'>alt0</td><td bgcolor='#C7A886'>Output</td>
 			</tr>
 			<tr>
 				<td>52</td><td>RESET_b</td><td><small><i>same</i></small></td>
@@ -2054,7 +2054,7 @@
 			</tr>
 			<tr>
 				<td>56</td><td>ADC0_SE13/PTB3/I2C0_SDA/UART0_CTS_b/UART0_COL_b/ENET0_1588_TMR1/FTM0_FLT0</td><td><small><i>same</i></small></td>
-				<td bgcolor='#86DAFF'>FTM0</td><td bgcolor='#86DAFF'>tmr_trigger2</td><td bgcolor='#86DAFF'>alt6</td><td bgcolor='#86DAFF'>Input</td>
+				<td bgcolor='#F8FF9A'>ADC0</td><td bgcolor='#F8FF9A'>adc_se13</td><td bgcolor='#F8FF9A'>alt0</td><td bgcolor='#F8FF9A'>Input</td>
 			</tr>
 			<tr>
 				<td>57</td><td>PTB9/SPI1_PCS1/UART3_CTS_b/FB_AD20</td><td><small><i>same</i></small></td>

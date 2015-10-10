@@ -51,8 +51,12 @@
 #define CE_OFF GPIO_DRV_ClearPinOutput(RF_CE)
 #define CE_ON GPIO_DRV_SetPinOutput(RF_CE)
 
+
+void Init_NRF24L(void);
 void Init_NRF24L_Transmitter(void);
 void Init_NRF24L_Reciever(void);
+void Set_NRF24L_Rx_Mode(void);
+void Set_NRF24L_Tx_Mode(void);
 unsigned char Read_Register(unsigned char RegisterNumber, unsigned char * RecieveArray, unsigned char NumOfBytesToRead);
 unsigned char Write_Register(unsigned char RegisterNumber, unsigned char * SendArray, unsigned char * RecievedArray, unsigned char NumOfBytesToRead);
 unsigned char Write_Reg_Varified(unsigned char RegisterNumber, unsigned char * SendArray, unsigned char NumOfBytesToRead);

@@ -6,6 +6,8 @@
 C_SRCS += \
 ../Generated_Code/Cpu.c \
 ../Generated_Code/SERIAL1.c \
+../Generated_Code/adConv1.c \
+../Generated_Code/adConv2.c \
 ../Generated_Code/clockMan1.c \
 ../Generated_Code/dspiCom1.c \
 ../Generated_Code/flexTimer1.c \
@@ -19,6 +21,8 @@ C_SRCS += \
 OBJS += \
 ./Generated_Code/Cpu.o \
 ./Generated_Code/SERIAL1.o \
+./Generated_Code/adConv1.o \
+./Generated_Code/adConv2.o \
 ./Generated_Code/clockMan1.o \
 ./Generated_Code/dspiCom1.o \
 ./Generated_Code/flexTimer1.o \
@@ -32,6 +36,8 @@ OBJS += \
 C_DEPS += \
 ./Generated_Code/Cpu.d \
 ./Generated_Code/SERIAL1.d \
+./Generated_Code/adConv1.d \
+./Generated_Code/adConv2.d \
 ./Generated_Code/clockMan1.d \
 ./Generated_Code/dspiCom1.d \
 ./Generated_Code/flexTimer1.d \

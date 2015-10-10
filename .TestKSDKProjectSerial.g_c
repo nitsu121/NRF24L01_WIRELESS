@@ -28,7 +28,7 @@
       <GenExtraFileSrcDir8>Repositories\lib\doxygen\</GenExtraFileSrcDir8>
       <XtraAge0>1192984014</XtraAge0>
       <XtraAge1>1192984938</XtraAge1>
-      <XtraAge2>1193251159</XtraAge2>
+      <XtraAge2>1195939844</XtraAge2>
       <XtraAge3>1192983599</XtraAge3>
       <GenExtraFileType8>5</GenExtraFileType8>
       <GenExtraFileType7>4</GenExtraFileType7>
@@ -347,51 +347,6 @@
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
-        <SrcFileName>C:\freescale\KSDK_1.2.0\platform\hal\src\ftm\fsl_ftm_hal.c</SrcFileName>
-        <OrigSrcFileHash>0F9709F0A62D7972543FCA6E13F4BD51DB41E68DCE4719AFA7FEF34F3B3CDB285F8C1574F9A8A73385602F42AE55568FD454AD6B574EA664452AD091E237EF2B</OrigSrcFileHash>
-        <ReviewedSrcFileHash>0F9709F0A62D7972543FCA6E13F4BD51DB41E68DCE4719AFA7FEF34F3B3CDB285F8C1574F9A8A73385602F42AE55568FD454AD6B574EA664452AD091E237EF2B</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\hal\src\ftm\fsl_ftm_hal.c</PrjFileName>
-        <PrjFileHash>0F9709F0A62D7972543FCA6E13F4BD51DB41E68DCE4719AFA7FEF34F3B3CDB285F8C1574F9A8A73385602F42AE55568FD454AD6B574EA664452AD091E237EF2B</PrjFileHash>
-        <NoMoreGenerated>false</NoMoreGenerated>
-        <NotCreatedByDefault>false</NotCreatedByDefault>
-      </SynchronizedStaticFile>
-      <SynchronizedStaticFile>
-        <SrcFileName>C:\freescale\KSDK_1.2.0\platform\hal\inc\fsl_ftm_hal.h</SrcFileName>
-        <OrigSrcFileHash>17B585D42E43A084D6840158AAAFA4F99930F7465DEA5F73E9E9166992AEB43FB04AA6861D6E16B472D206F1B76FBB37A8665057625C2BC6F6E9396872C5F543</OrigSrcFileHash>
-        <ReviewedSrcFileHash>17B585D42E43A084D6840158AAAFA4F99930F7465DEA5F73E9E9166992AEB43FB04AA6861D6E16B472D206F1B76FBB37A8665057625C2BC6F6E9396872C5F543</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\hal\inc\fsl_ftm_hal.h</PrjFileName>
-        <PrjFileHash>17B585D42E43A084D6840158AAAFA4F99930F7465DEA5F73E9E9166992AEB43FB04AA6861D6E16B472D206F1B76FBB37A8665057625C2BC6F6E9396872C5F543</PrjFileHash>
-        <NoMoreGenerated>false</NoMoreGenerated>
-        <NotCreatedByDefault>false</NotCreatedByDefault>
-      </SynchronizedStaticFile>
-      <SynchronizedStaticFile>
-        <SrcFileName>C:\freescale\KSDK_1.2.0\platform\drivers\src\ftm\fsl_ftm_common.c</SrcFileName>
-        <OrigSrcFileHash>F2D9CCC237A2CAF20EBFE2C0C4902CB3A44199F0BF502CF7EDB9EACD777398BE0D8B5EBB956DB786FA1FA0FF1D8FDE9D47A7CF277A3913B4F86F1183C7BE479A</OrigSrcFileHash>
-        <ReviewedSrcFileHash>F2D9CCC237A2CAF20EBFE2C0C4902CB3A44199F0BF502CF7EDB9EACD777398BE0D8B5EBB956DB786FA1FA0FF1D8FDE9D47A7CF277A3913B4F86F1183C7BE479A</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\drivers\src\ftm\fsl_ftm_common.c</PrjFileName>
-        <PrjFileHash>F2D9CCC237A2CAF20EBFE2C0C4902CB3A44199F0BF502CF7EDB9EACD777398BE0D8B5EBB956DB786FA1FA0FF1D8FDE9D47A7CF277A3913B4F86F1183C7BE479A</PrjFileHash>
-        <NoMoreGenerated>false</NoMoreGenerated>
-        <NotCreatedByDefault>false</NotCreatedByDefault>
-      </SynchronizedStaticFile>
-      <SynchronizedStaticFile>
-        <SrcFileName>C:\freescale\KSDK_1.2.0\platform\drivers\src\ftm\fsl_ftm_driver.c</SrcFileName>
-        <OrigSrcFileHash>D1DD8676EB11320CF0DB16D395E0EBD731D9C48A7D251255DD2BA9619AE3524B64B72E871531D11F5C09B903D12C27390124A0622FF78F7C79D0B9D630AFC135</OrigSrcFileHash>
-        <ReviewedSrcFileHash>D1DD8676EB11320CF0DB16D395E0EBD731D9C48A7D251255DD2BA9619AE3524B64B72E871531D11F5C09B903D12C27390124A0622FF78F7C79D0B9D630AFC135</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\drivers\src\ftm\fsl_ftm_driver.c</PrjFileName>
-        <PrjFileHash>D1DD8676EB11320CF0DB16D395E0EBD731D9C48A7D251255DD2BA9619AE3524B64B72E871531D11F5C09B903D12C27390124A0622FF78F7C79D0B9D630AFC135</PrjFileHash>
-        <NoMoreGenerated>false</NoMoreGenerated>
-        <NotCreatedByDefault>false</NotCreatedByDefault>
-      </SynchronizedStaticFile>
-      <SynchronizedStaticFile>
-        <SrcFileName>C:\freescale\KSDK_1.2.0\platform\drivers\inc\fsl_ftm_driver.h</SrcFileName>
-        <OrigSrcFileHash>49159F3FE87477E04337BE0D081E568709E1EAC7EA84484D8CDBEBB430FD4FDB4EB94C3F57088343197EC8200A008ABC0A286FB05A6F1FC5DEA3BADC921DE46E</OrigSrcFileHash>
-        <ReviewedSrcFileHash>49159F3FE87477E04337BE0D081E568709E1EAC7EA84484D8CDBEBB430FD4FDB4EB94C3F57088343197EC8200A008ABC0A286FB05A6F1FC5DEA3BADC921DE46E</ReviewedSrcFileHash>
-        <PrjFileName>SDK\platform\drivers\inc\fsl_ftm_driver.h</PrjFileName>
-        <PrjFileHash>49159F3FE87477E04337BE0D081E568709E1EAC7EA84484D8CDBEBB430FD4FDB4EB94C3F57088343197EC8200A008ABC0A286FB05A6F1FC5DEA3BADC921DE46E</PrjFileHash>
-        <NoMoreGenerated>false</NoMoreGenerated>
-        <NotCreatedByDefault>false</NotCreatedByDefault>
-      </SynchronizedStaticFile>
-      <SynchronizedStaticFile>
         <SrcFileName>C:\freescale\KSDK_1.2.0\platform\hal\src\uart\fsl_uart_hal.c</SrcFileName>
         <OrigSrcFileHash>25412CE61F4683F246A4D964ACF40A39A83072ED97F51FFAEF6F893BF5457BDB4C815903BD302628424CFFB56C18FA13748072ACC526BA292E9E16D91654F310</OrigSrcFileHash>
         <ReviewedSrcFileHash>25412CE61F4683F246A4D964ACF40A39A83072ED97F51FFAEF6F893BF5457BDB4C815903BD302628424CFFB56C18FA13748072ACC526BA292E9E16D91654F310</ReviewedSrcFileHash>
@@ -514,6 +469,96 @@
         <ReviewedSrcFileHash>0B2893F56F5CECCF246E7A118DE1980004EB457171A94E6B07A2E2DB8B04B3D142D04E8E1E755F0043609073DD7AE1B095202934A55326DF83B5A7AE0F7E092C</ReviewedSrcFileHash>
         <PrjFileName>SDK\platform\drivers\inc\fsl_dspi_slave_driver.h</PrjFileName>
         <PrjFileHash>0B2893F56F5CECCF246E7A118DE1980004EB457171A94E6B07A2E2DB8B04B3D142D04E8E1E755F0043609073DD7AE1B095202934A55326DF83B5A7AE0F7E092C</PrjFileHash>
+        <NoMoreGenerated>false</NoMoreGenerated>
+        <NotCreatedByDefault>false</NotCreatedByDefault>
+      </SynchronizedStaticFile>
+      <SynchronizedStaticFile>
+        <SrcFileName>C:\freescale\KSDK_1.2.0\platform\hal\src\adc16\fsl_adc16_hal.c</SrcFileName>
+        <OrigSrcFileHash>BA45695CB0C497D1F7378E30D89886A245868A6F1B00AA43F25B83A560F72888157647480850B525F70B5296FFC2D908D88F3239DCCA65D696A087821AB89D42</OrigSrcFileHash>
+        <ReviewedSrcFileHash>BA45695CB0C497D1F7378E30D89886A245868A6F1B00AA43F25B83A560F72888157647480850B525F70B5296FFC2D908D88F3239DCCA65D696A087821AB89D42</ReviewedSrcFileHash>
+        <PrjFileName>SDK\platform\hal\src\adc16\fsl_adc16_hal.c</PrjFileName>
+        <PrjFileHash>BA45695CB0C497D1F7378E30D89886A245868A6F1B00AA43F25B83A560F72888157647480850B525F70B5296FFC2D908D88F3239DCCA65D696A087821AB89D42</PrjFileHash>
+        <NoMoreGenerated>false</NoMoreGenerated>
+        <NotCreatedByDefault>false</NotCreatedByDefault>
+      </SynchronizedStaticFile>
+      <SynchronizedStaticFile>
+        <SrcFileName>C:\freescale\KSDK_1.2.0\platform\hal\inc\fsl_adc16_hal.h</SrcFileName>
+        <OrigSrcFileHash>0165320D6BD27A43427342B44A59BB87C7CAA3ADA2CAE8CA5D00AB5374AD199D284EC7D7C8F199A6AA446861ABC072D3B4B0172297EC5B4E43050DCFCD06D35C</OrigSrcFileHash>
+        <ReviewedSrcFileHash>0165320D6BD27A43427342B44A59BB87C7CAA3ADA2CAE8CA5D00AB5374AD199D284EC7D7C8F199A6AA446861ABC072D3B4B0172297EC5B4E43050DCFCD06D35C</ReviewedSrcFileHash>
+        <PrjFileName>SDK\platform\hal\inc\fsl_adc16_hal.h</PrjFileName>
+        <PrjFileHash>0165320D6BD27A43427342B44A59BB87C7CAA3ADA2CAE8CA5D00AB5374AD199D284EC7D7C8F199A6AA446861ABC072D3B4B0172297EC5B4E43050DCFCD06D35C</PrjFileHash>
+        <NoMoreGenerated>false</NoMoreGenerated>
+        <NotCreatedByDefault>false</NotCreatedByDefault>
+      </SynchronizedStaticFile>
+      <SynchronizedStaticFile>
+        <SrcFileName>C:\freescale\KSDK_1.2.0\platform\drivers\src\adc16\fsl_adc16_common.c</SrcFileName>
+        <OrigSrcFileHash>1CFF1F351AF98638077F74B6A451B13BA87D70511D84AF26D8587FCE34AD1A988C89AE8009CD4532F968236F45C51F93D1C441C7FF8EFA5D4C7F4902C7AEB565</OrigSrcFileHash>
+        <ReviewedSrcFileHash>1CFF1F351AF98638077F74B6A451B13BA87D70511D84AF26D8587FCE34AD1A988C89AE8009CD4532F968236F45C51F93D1C441C7FF8EFA5D4C7F4902C7AEB565</ReviewedSrcFileHash>
+        <PrjFileName>SDK\platform\drivers\src\adc16\fsl_adc16_common.c</PrjFileName>
+        <PrjFileHash>1CFF1F351AF98638077F74B6A451B13BA87D70511D84AF26D8587FCE34AD1A988C89AE8009CD4532F968236F45C51F93D1C441C7FF8EFA5D4C7F4902C7AEB565</PrjFileHash>
+        <NoMoreGenerated>false</NoMoreGenerated>
+        <NotCreatedByDefault>false</NotCreatedByDefault>
+      </SynchronizedStaticFile>
+      <SynchronizedStaticFile>
+        <SrcFileName>C:\freescale\KSDK_1.2.0\platform\drivers\src\adc16\fsl_adc16_driver.c</SrcFileName>
+        <OrigSrcFileHash>EEF95B4ABD6E19C5673C5219EC720E10909D4E4555A7BE8FDB488F1DB8F1E933759FAAE7C583C62E7E2D6012D0D7332EDDA07EE6CE8FDAC76350D43A54C5C1C8</OrigSrcFileHash>
+        <ReviewedSrcFileHash>EEF95B4ABD6E19C5673C5219EC720E10909D4E4555A7BE8FDB488F1DB8F1E933759FAAE7C583C62E7E2D6012D0D7332EDDA07EE6CE8FDAC76350D43A54C5C1C8</ReviewedSrcFileHash>
+        <PrjFileName>SDK\platform\drivers\src\adc16\fsl_adc16_driver.c</PrjFileName>
+        <PrjFileHash>EEF95B4ABD6E19C5673C5219EC720E10909D4E4555A7BE8FDB488F1DB8F1E933759FAAE7C583C62E7E2D6012D0D7332EDDA07EE6CE8FDAC76350D43A54C5C1C8</PrjFileHash>
+        <NoMoreGenerated>false</NoMoreGenerated>
+        <NotCreatedByDefault>false</NotCreatedByDefault>
+      </SynchronizedStaticFile>
+      <SynchronizedStaticFile>
+        <SrcFileName>C:\freescale\KSDK_1.2.0\platform\drivers\inc\fsl_adc16_driver.h</SrcFileName>
+        <OrigSrcFileHash>2545B10EFF5C14A41F946791F8C5B77DABDA4C97CDB28B406056AFE0CFF14DBBF1D142EE6EB580D2EF2A2D9503CE8A481AA14D3EE9BE75D8D6FCDC2590EC794D</OrigSrcFileHash>
+        <ReviewedSrcFileHash>2545B10EFF5C14A41F946791F8C5B77DABDA4C97CDB28B406056AFE0CFF14DBBF1D142EE6EB580D2EF2A2D9503CE8A481AA14D3EE9BE75D8D6FCDC2590EC794D</ReviewedSrcFileHash>
+        <PrjFileName>SDK\platform\drivers\inc\fsl_adc16_driver.h</PrjFileName>
+        <PrjFileHash>2545B10EFF5C14A41F946791F8C5B77DABDA4C97CDB28B406056AFE0CFF14DBBF1D142EE6EB580D2EF2A2D9503CE8A481AA14D3EE9BE75D8D6FCDC2590EC794D</PrjFileHash>
+        <NoMoreGenerated>false</NoMoreGenerated>
+        <NotCreatedByDefault>false</NotCreatedByDefault>
+      </SynchronizedStaticFile>
+      <SynchronizedStaticFile>
+        <SrcFileName>C:\freescale\KSDK_1.2.0\platform\hal\src\ftm\fsl_ftm_hal.c</SrcFileName>
+        <OrigSrcFileHash>0F9709F0A62D7972543FCA6E13F4BD51DB41E68DCE4719AFA7FEF34F3B3CDB285F8C1574F9A8A73385602F42AE55568FD454AD6B574EA664452AD091E237EF2B</OrigSrcFileHash>
+        <ReviewedSrcFileHash>0F9709F0A62D7972543FCA6E13F4BD51DB41E68DCE4719AFA7FEF34F3B3CDB285F8C1574F9A8A73385602F42AE55568FD454AD6B574EA664452AD091E237EF2B</ReviewedSrcFileHash>
+        <PrjFileName>SDK\platform\hal\src\ftm\fsl_ftm_hal.c</PrjFileName>
+        <PrjFileHash>0F9709F0A62D7972543FCA6E13F4BD51DB41E68DCE4719AFA7FEF34F3B3CDB285F8C1574F9A8A73385602F42AE55568FD454AD6B574EA664452AD091E237EF2B</PrjFileHash>
+        <NoMoreGenerated>false</NoMoreGenerated>
+        <NotCreatedByDefault>false</NotCreatedByDefault>
+      </SynchronizedStaticFile>
+      <SynchronizedStaticFile>
+        <SrcFileName>C:\freescale\KSDK_1.2.0\platform\hal\inc\fsl_ftm_hal.h</SrcFileName>
+        <OrigSrcFileHash>17B585D42E43A084D6840158AAAFA4F99930F7465DEA5F73E9E9166992AEB43FB04AA6861D6E16B472D206F1B76FBB37A8665057625C2BC6F6E9396872C5F543</OrigSrcFileHash>
+        <ReviewedSrcFileHash>17B585D42E43A084D6840158AAAFA4F99930F7465DEA5F73E9E9166992AEB43FB04AA6861D6E16B472D206F1B76FBB37A8665057625C2BC6F6E9396872C5F543</ReviewedSrcFileHash>
+        <PrjFileName>SDK\platform\hal\inc\fsl_ftm_hal.h</PrjFileName>
+        <PrjFileHash>17B585D42E43A084D6840158AAAFA4F99930F7465DEA5F73E9E9166992AEB43FB04AA6861D6E16B472D206F1B76FBB37A8665057625C2BC6F6E9396872C5F543</PrjFileHash>
+        <NoMoreGenerated>false</NoMoreGenerated>
+        <NotCreatedByDefault>false</NotCreatedByDefault>
+      </SynchronizedStaticFile>
+      <SynchronizedStaticFile>
+        <SrcFileName>C:\freescale\KSDK_1.2.0\platform\drivers\src\ftm\fsl_ftm_common.c</SrcFileName>
+        <OrigSrcFileHash>F2D9CCC237A2CAF20EBFE2C0C4902CB3A44199F0BF502CF7EDB9EACD777398BE0D8B5EBB956DB786FA1FA0FF1D8FDE9D47A7CF277A3913B4F86F1183C7BE479A</OrigSrcFileHash>
+        <ReviewedSrcFileHash>F2D9CCC237A2CAF20EBFE2C0C4902CB3A44199F0BF502CF7EDB9EACD777398BE0D8B5EBB956DB786FA1FA0FF1D8FDE9D47A7CF277A3913B4F86F1183C7BE479A</ReviewedSrcFileHash>
+        <PrjFileName>SDK\platform\drivers\src\ftm\fsl_ftm_common.c</PrjFileName>
+        <PrjFileHash>F2D9CCC237A2CAF20EBFE2C0C4902CB3A44199F0BF502CF7EDB9EACD777398BE0D8B5EBB956DB786FA1FA0FF1D8FDE9D47A7CF277A3913B4F86F1183C7BE479A</PrjFileHash>
+        <NoMoreGenerated>false</NoMoreGenerated>
+        <NotCreatedByDefault>false</NotCreatedByDefault>
+      </SynchronizedStaticFile>
+      <SynchronizedStaticFile>
+        <SrcFileName>C:\freescale\KSDK_1.2.0\platform\drivers\src\ftm\fsl_ftm_driver.c</SrcFileName>
+        <OrigSrcFileHash>D1DD8676EB11320CF0DB16D395E0EBD731D9C48A7D251255DD2BA9619AE3524B64B72E871531D11F5C09B903D12C27390124A0622FF78F7C79D0B9D630AFC135</OrigSrcFileHash>
+        <ReviewedSrcFileHash>D1DD8676EB11320CF0DB16D395E0EBD731D9C48A7D251255DD2BA9619AE3524B64B72E871531D11F5C09B903D12C27390124A0622FF78F7C79D0B9D630AFC135</ReviewedSrcFileHash>
+        <PrjFileName>SDK\platform\drivers\src\ftm\fsl_ftm_driver.c</PrjFileName>
+        <PrjFileHash>D1DD8676EB11320CF0DB16D395E0EBD731D9C48A7D251255DD2BA9619AE3524B64B72E871531D11F5C09B903D12C27390124A0622FF78F7C79D0B9D630AFC135</PrjFileHash>
+        <NoMoreGenerated>false</NoMoreGenerated>
+        <NotCreatedByDefault>false</NotCreatedByDefault>
+      </SynchronizedStaticFile>
+      <SynchronizedStaticFile>
+        <SrcFileName>C:\freescale\KSDK_1.2.0\platform\drivers\inc\fsl_ftm_driver.h</SrcFileName>
+        <OrigSrcFileHash>49159F3FE87477E04337BE0D081E568709E1EAC7EA84484D8CDBEBB430FD4FDB4EB94C3F57088343197EC8200A008ABC0A286FB05A6F1FC5DEA3BADC921DE46E</OrigSrcFileHash>
+        <ReviewedSrcFileHash>49159F3FE87477E04337BE0D081E568709E1EAC7EA84484D8CDBEBB430FD4FDB4EB94C3F57088343197EC8200A008ABC0A286FB05A6F1FC5DEA3BADC921DE46E</ReviewedSrcFileHash>
+        <PrjFileName>SDK\platform\drivers\inc\fsl_ftm_driver.h</PrjFileName>
+        <PrjFileHash>49159F3FE87477E04337BE0D081E568709E1EAC7EA84484D8CDBEBB430FD4FDB4EB94C3F57088343197EC8200A008ABC0A286FB05A6F1FC5DEA3BADC921DE46E</PrjFileHash>
         <NoMoreGenerated>false</NoMoreGenerated>
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
@@ -674,9 +719,9 @@
         <Line>Events</Line>
       </GenEventModules>
       <GenMethodsInEvents lines_count="9">
+        <Line>FTM0_IRQHandler</Line>
         <Line>PIT1_IRQHandler</Line>
         <Line>SPI1_IRQHandler</Line>
-        <Line>FTM0_IRQHandler</Line>
         <Line>PIT0_IRQHandler</Line>
         <Line>PORTA_IRQHandler</Line>
         <Line>PORTB_IRQHandler</Line>
@@ -684,7 +729,9 @@
         <Line>PORTD_IRQHandler</Line>
         <Line>PORTE_IRQHandler</Line>
       </GenMethodsInEvents>
-      <GenAllModules lines_count="11">
+      <GenAllModules lines_count="13">
+        <Line>adConv1</Line>
+        <Line>adConv2</Line>
         <Line>clockMan1</Line>
         <Line>Cpu</Line>
         <Line>dspiCom1</Line>
@@ -698,21 +745,23 @@
         <Line>SERIAL1</Line>
       </GenAllModules>
       <GenExternModules lines_count="0" />
-      <GenBeanModules lines_count="9">
+      <GenBeanModules lines_count="11">
         <Line>clockMan1</Line>
         <Line>pin_mux</Line>
         <Line>osa1</Line>
         <Line>gpio1</Line>
         <Line>pitTimer1</Line>
-        <Line>flexTimer1</Line>
         <Line>SERIAL1</Line>
         <Line>dspiCom1</Line>
         <Line>pit100us</Line>
+        <Line>adConv1</Line>
+        <Line>adConv2</Line>
+        <Line>flexTimer1</Line>
       </GenBeanModules>
     </GenFiles>
     <SignalListFile />
     <DestinationCompiler>GNUC</DestinationCompiler>
-    <ProjectModificationStamp>22</ProjectModificationStamp>
+    <ProjectModificationStamp>30</ProjectModificationStamp>
   </Options>
   <CpuID_2>
     <Generated>false</Generated>
@@ -741,8 +790,8 @@
     <GenComponentVersion>1.2.0</GenComponentVersion>
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule>Events</GenEventModule>
-    <HeaderAge>1193251159</HeaderAge>
-    <CodeAge>1193369017</CodeAge>
+    <HeaderAge>1195939844</HeaderAge>
+    <CodeAge>1195939844</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>2</GenNumMethods>
     <SystemInit>true</SystemInit>
@@ -1276,13 +1325,13 @@
     <GenComponentVersion>1.2.0</GenComponentVersion>
     <GenDriverVersion>1.4</GenDriverVersion>
     <GenEventModule />
-    <HeaderAge>1193251159</HeaderAge>
-    <CodeAge>1193251159</CodeAge>
+    <HeaderAge>1195939844</HeaderAge>
+    <CodeAge>1195939977</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>59</GenNumMethods>
     <hardware_init>true</hardware_init>
-    <init_adc_pins>false</init_adc_pins>
-    <deinit_adc_pins>false</deinit_adc_pins>
+    <init_adc_pins>true</init_adc_pins>
+    <deinit_adc_pins>true</deinit_adc_pins>
     <init_can_pins>false</init_can_pins>
     <deinit_can_pins>false</deinit_can_pins>
     <init_cmp_pins>false</init_cmp_pins>
@@ -1348,15 +1397,15 @@
       <MethodPos0>Init</MethodPos0>
       <MethodType>method</MethodType>
       <ModuleType>Header</ModuleType>
-      <LineBeg>1411</LineBeg>
-      <LineEnd>1799</LineEnd>
+      <LineBeg>1413</LineBeg>
+      <LineEnd>1801</LineEnd>
     </MethodPos>
     <MethodPos>
       <MethodPos1>Init</MethodPos1>
       <MethodType>method</MethodType>
       <ModuleType>Code</ModuleType>
       <LineBeg>1398</LineBeg>
-      <LineEnd>1674</LineEnd>
+      <LineEnd>1708</LineEnd>
     </MethodPos>
     <GenExtraFilesCount>2</GenExtraFilesCount>
     <ExtraFile0>Generated_Code\board.h</ExtraFile0>
@@ -1909,171 +1958,6 @@
       <ExtraFile1>SDK\platform\hal\src\pit\fsl_pit_hal.c</ExtraFile1>
     </InhrCompID_31>
   </ComponentID_30>
-  <ComponentID_34>
-    <Generated>true</Generated>
-    <GenCompName>flexTimer1</GenCompName>
-    <GenComponentVersion>1.2.0</GenComponentVersion>
-    <GenDriverVersion>01.00</GenDriverVersion>
-    <GenEventModule>Events</GenEventModule>
-    <HeaderAge>1192991184</HeaderAge>
-    <CodeAge>1192991184</CodeAge>
-    <AsemblAge>-1</AsemblAge>
-    <GenNumMethods>17</GenNumMethods>
-    <FTM_DRV_Init>true</FTM_DRV_Init>
-    <FTM_DRV_Deinit>true</FTM_DRV_Deinit>
-    <FTM_DRV_PwmStop>true</FTM_DRV_PwmStop>
-    <FTM_DRV_PwmStart>true</FTM_DRV_PwmStart>
-    <FTM_DRV_QuadDecodeStart>true</FTM_DRV_QuadDecodeStart>
-    <FTM_DRV_QuadDecodeStop>true</FTM_DRV_QuadDecodeStop>
-    <FTM_DRV_CounterStart>true</FTM_DRV_CounterStart>
-    <FTM_DRV_CounterStop>true</FTM_DRV_CounterStop>
-    <FTM_DRV_CounterRead>true</FTM_DRV_CounterRead>
-    <FTM_DRV_SetClock>true</FTM_DRV_SetClock>
-    <FTM_DRV_GetClock>true</FTM_DRV_GetClock>
-    <FTM_DRV_SetTimeOverflowIntCmd>true</FTM_DRV_SetTimeOverflowIntCmd>
-    <FTM_DRV_SetFaultIntCmd>true</FTM_DRV_SetFaultIntCmd>
-    <FTM_DRV_SetupChnInputCapture>true</FTM_DRV_SetupChnInputCapture>
-    <FTM_DRV_SetupChnOutputCompare>true</FTM_DRV_SetupChnOutputCompare>
-    <FTM_DRV_SetupChnDualEdgeCapture>true</FTM_DRV_SetupChnDualEdgeCapture>
-    <FTM_DRV_IRQHandler>true</FTM_DRV_IRQHandler>
-    <GenNumEvents>1</GenNumEvents>
-    <IrqHandler_Selected>3</IrqHandler_Selected>
-    <IrqHandler_Name>FTM0_IRQHandler</IrqHandler_Name>
-    <IrqHandler_Priority>interrupts disabled</IrqHandler_Priority>
-    <GenSmartUserChangesDetected_Header>false</GenSmartUserChangesDetected_Header>
-    <GenSmartUserChangesDetected_Code>false</GenSmartUserChangesDetected_Code>
-    <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
-    <GenMethodPos>0</GenMethodPos>
-    <GenExtraFilesCount>3</GenExtraFilesCount>
-    <ExtraFile0>SDK\platform\drivers\inc\fsl_ftm_driver.h</ExtraFile0>
-    <ExtraFile1>SDK\platform\drivers\src\ftm\fsl_ftm_driver.c</ExtraFile1>
-    <ExtraFile2>SDK\platform\drivers\src\ftm\fsl_ftm_common.c</ExtraFile2>
-    <InhrCompID_35>
-      <Generated>true</Generated>
-      <GenCompName>fsl_ftm_hal1</GenCompName>
-      <GenComponentVersion>1.2.0</GenComponentVersion>
-      <GenDriverVersion>01.00</GenDriverVersion>
-      <GenEventModule />
-      <HeaderAge>-1</HeaderAge>
-      <CodeAge>-1</CodeAge>
-      <AsemblAge>-1</AsemblAge>
-      <GenNumMethods>106</GenNumMethods>
-      <FTM_HAL_SetClockSource>true</FTM_HAL_SetClockSource>
-      <FTM_HAL_GetClockSource>true</FTM_HAL_GetClockSource>
-      <FTM_HAL_SetClockPs>true</FTM_HAL_SetClockPs>
-      <FTM_HAL_GetClockPs>true</FTM_HAL_GetClockPs>
-      <FTM_HAL_EnableTimerOverflowInt>true</FTM_HAL_EnableTimerOverflowInt>
-      <FTM_HAL_DisableTimerOverflowInt>true</FTM_HAL_DisableTimerOverflowInt>
-      <FTM_HAL_IsOverflowIntEnabled>true</FTM_HAL_IsOverflowIntEnabled>
-      <FTM_HAL_ClearTimerOverflow>true</FTM_HAL_ClearTimerOverflow>
-      <FTM_HAL_HasTimerOverflowed>true</FTM_HAL_HasTimerOverflowed>
-      <FTM_HAL_SetCpwms>true</FTM_HAL_SetCpwms>
-      <FTM_HAL_SetCounter>true</FTM_HAL_SetCounter>
-      <FTM_HAL_GetCounter>true</FTM_HAL_GetCounter>
-      <FTM_HAL_SetMod>true</FTM_HAL_SetMod>
-      <FTM_HAL_GetMod>true</FTM_HAL_GetMod>
-      <FTM_HAL_SetCounterInitVal>true</FTM_HAL_SetCounterInitVal>
-      <FTM_HAL_GetCounterInitVal>true</FTM_HAL_GetCounterInitVal>
-      <FTM_HAL_SetChnMSnBAMode>true</FTM_HAL_SetChnMSnBAMode>
-      <FTM_HAL_SetChnEdgeLevel>true</FTM_HAL_SetChnEdgeLevel>
-      <FTM_HAL_GetChnMode>true</FTM_HAL_GetChnMode>
-      <FTM_HAL_GetChnEdgeLevel>true</FTM_HAL_GetChnEdgeLevel>
-      <FTM_HAL_SetChnDmaCmd>true</FTM_HAL_SetChnDmaCmd>
-      <FTM_HAL_IsChnDma>true</FTM_HAL_IsChnDma>
-      <FTM_HAL_IsChnIntEnabled>true</FTM_HAL_IsChnIntEnabled>
-      <FTM_HAL_EnableChnInt>true</FTM_HAL_EnableChnInt>
-      <FTM_HAL_DisableChnInt>true</FTM_HAL_DisableChnInt>
-      <FTM_HAL_HasChnEventOccurred>true</FTM_HAL_HasChnEventOccurred>
-      <FTM_HAL_ClearChnEventFlag>true</FTM_HAL_ClearChnEventFlag>
-      <FTM_HAL_SetChnCountVal>true</FTM_HAL_SetChnCountVal>
-      <FTM_HAL_GetChnCountVal>true</FTM_HAL_GetChnCountVal>
-      <FTM_HAL_GetChnEventStatus>true</FTM_HAL_GetChnEventStatus>
-      <FTM_HAL_ClearChnEventStatus>true</FTM_HAL_ClearChnEventStatus>
-      <FTM_HAL_SetOutmaskReg>true</FTM_HAL_SetOutmaskReg>
-      <FTM_HAL_SetChnOutputMask>true</FTM_HAL_SetChnOutputMask>
-      <FTM_HAL_SetChnOutputInitStateCmd>true</FTM_HAL_SetChnOutputInitStateCmd>
-      <FTM_HAL_SetChnOutputPolarityCmd>true</FTM_HAL_SetChnOutputPolarityCmd>
-      <FTM_HAL_SetChnFaultInputPolarityCmd>true</FTM_HAL_SetChnFaultInputPolarityCmd>
-      <FTM_HAL_EnableFaultInt>true</FTM_HAL_EnableFaultInt>
-      <FTM_HAL_DisableFaultInt>true</FTM_HAL_DisableFaultInt>
-      <FTM_HAL_SetFaultControlMode>true</FTM_HAL_SetFaultControlMode>
-      <FTM_HAL_SetCaptureTestCmd>true</FTM_HAL_SetCaptureTestCmd>
-      <FTM_HAL_SetWriteProtectionCmd>true</FTM_HAL_SetWriteProtectionCmd>
-      <FTM_HAL_Enable>true</FTM_HAL_Enable>
-      <FTM_HAL_SetInitChnOutputCmd>true</FTM_HAL_SetInitChnOutputCmd>
-      <FTM_HAL_SetPwmSyncMode>true</FTM_HAL_SetPwmSyncMode>
-      <FTM_HAL_SetSoftwareTriggerCmd>true</FTM_HAL_SetSoftwareTriggerCmd>
-      <FTM_HAL_SetHardwareSyncTriggerSrc>true</FTM_HAL_SetHardwareSyncTriggerSrc>
-      <FTM_HAL_SetOutmaskPwmSyncModeCmd>true</FTM_HAL_SetOutmaskPwmSyncModeCmd>
-      <FTM_HAL_SetCountReinitSyncCmd>true</FTM_HAL_SetCountReinitSyncCmd>
-      <FTM_HAL_SetMaxLoadingCmd>true</FTM_HAL_SetMaxLoadingCmd>
-      <FTM_HAL_SetMinLoadingCmd>true</FTM_HAL_SetMinLoadingCmd>
-      <FTM_HAL_GetChnPairIndex>true</FTM_HAL_GetChnPairIndex>
-      <FTM_HAL_SetDualChnFaultCmd>true</FTM_HAL_SetDualChnFaultCmd>
-      <FTM_HAL_SetDualChnPwmSyncCmd>true</FTM_HAL_SetDualChnPwmSyncCmd>
-      <FTM_HAL_SetDualChnDeadtimeCmd>true</FTM_HAL_SetDualChnDeadtimeCmd>
-      <FTM_HAL_SetDualChnDecapCmd>true</FTM_HAL_SetDualChnDecapCmd>
-      <FTM_HAL_SetDualEdgeCaptureCmd>true</FTM_HAL_SetDualEdgeCaptureCmd>
-      <FTM_HAL_SetDualChnCompCmd>true</FTM_HAL_SetDualChnCompCmd>
-      <FTM_HAL_SetDualChnCombineCmd>true</FTM_HAL_SetDualChnCombineCmd>
-      <FTM_HAL_SetDeadtimePrescale>true</FTM_HAL_SetDeadtimePrescale>
-      <FTM_HAL_SetDeadtimeCount>true</FTM_HAL_SetDeadtimeCount>
-      <FTM_HAL_SetInitTriggerCmd>true</FTM_HAL_SetInitTriggerCmd>
-      <FTM_HAL_SetChnTriggerCmd>true</FTM_HAL_SetChnTriggerCmd>
-      <FTM_HAL_IsChnTriggerGenerated>true</FTM_HAL_IsChnTriggerGenerated>
-      <FTM_HAL_GetDetectedFaultInput>true</FTM_HAL_GetDetectedFaultInput>
-      <FTM_HAL_IsWriteProtectionEnabled>true</FTM_HAL_IsWriteProtectionEnabled>
-      <FTM_HAL_SetQuadDecoderCmd>true</FTM_HAL_SetQuadDecoderCmd>
-      <FTM_HAL_SetQuadPhaseAFilterCmd>true</FTM_HAL_SetQuadPhaseAFilterCmd>
-      <FTM_HAL_SetQuadPhaseBFilterCmd>true</FTM_HAL_SetQuadPhaseBFilterCmd>
-      <FTM_HAL_SetQuadPhaseAPolarity>true</FTM_HAL_SetQuadPhaseAPolarity>
-      <FTM_HAL_SetQuadPhaseBPolarity>true</FTM_HAL_SetQuadPhaseBPolarity>
-      <FTM_HAL_SetQuadMode>true</FTM_HAL_SetQuadMode>
-      <FTM_HAL_GetQuadDir>true</FTM_HAL_GetQuadDir>
-      <FTM_HAL_GetQuadTimerOverflowDir>true</FTM_HAL_GetQuadTimerOverflowDir>
-      <FTM_HAL_SetChnInputCaptureFilter>true</FTM_HAL_SetChnInputCaptureFilter>
-      <FTM_HAL_SetFaultInputFilterVal>true</FTM_HAL_SetFaultInputFilterVal>
-      <FTM_HAL_SetFaultInputFilterCmd>true</FTM_HAL_SetFaultInputFilterCmd>
-      <FTM_HAL_SetFaultInputCmd>true</FTM_HAL_SetFaultInputCmd>
-      <FTM_HAL_SetDualChnInvertCmd>true</FTM_HAL_SetDualChnInvertCmd>
-      <FTM_HAL_SetInvctrlReg>true</FTM_HAL_SetInvctrlReg>
-      <FTM_HAL_SetChnSoftwareCtrlCmd>true</FTM_HAL_SetChnSoftwareCtrlCmd>
-      <FTM_HAL_SetChnSoftwareCtrlVal>true</FTM_HAL_SetChnSoftwareCtrlVal>
-      <FTM_HAL_SetPwmLoadCmd>true</FTM_HAL_SetPwmLoadCmd>
-      <FTM_HAL_SetPwmLoadChnSelCmd>true</FTM_HAL_SetPwmLoadChnSelCmd>
-      <FTM_HAL_SetGlobalTimeBaseOutputCmd>true</FTM_HAL_SetGlobalTimeBaseOutputCmd>
-      <FTM_HAL_SetGlobalTimeBaseCmd>true</FTM_HAL_SetGlobalTimeBaseCmd>
-      <FTM_HAL_SetBdmMode>true</FTM_HAL_SetBdmMode>
-      <FTM_HAL_SetTofFreq>true</FTM_HAL_SetTofFreq>
-      <FTM_HAL_SetSyncMode>true</FTM_HAL_SetSyncMode>
-      <FTM_HAL_SetSwoctrlHardwareSyncModeCmd>true</FTM_HAL_SetSwoctrlHardwareSyncModeCmd>
-      <FTM_HAL_SetInvctrlHardwareSyncModeCmd>true</FTM_HAL_SetInvctrlHardwareSyncModeCmd>
-      <FTM_HAL_SetOutmaskHardwareSyncModeCmd>true</FTM_HAL_SetOutmaskHardwareSyncModeCmd>
-      <FTM_HAL_SetModCntinCvHardwareSyncModeCmd>true</FTM_HAL_SetModCntinCvHardwareSyncModeCmd>
-      <FTM_HAL_SetCounterHardwareSyncModeCmd>true</FTM_HAL_SetCounterHardwareSyncModeCmd>
-      <FTM_HAL_SetSwoctrlSoftwareSyncModeCmd>true</FTM_HAL_SetSwoctrlSoftwareSyncModeCmd>
-      <FTM_HAL_SetInvctrlSoftwareSyncModeCmd>true</FTM_HAL_SetInvctrlSoftwareSyncModeCmd>
-      <FTM_HAL_SetOutmaskSoftwareSyncModeCmd>true</FTM_HAL_SetOutmaskSoftwareSyncModeCmd>
-      <FTM_HAL_SetModCntinCvSoftwareSyncModeCmd>true</FTM_HAL_SetModCntinCvSoftwareSyncModeCmd>
-      <FTM_HAL_SetCounterSoftwareSyncModeCmd>true</FTM_HAL_SetCounterSoftwareSyncModeCmd>
-      <FTM_HAL_SetPwmSyncModeCmd>true</FTM_HAL_SetPwmSyncModeCmd>
-      <FTM_HAL_SetSwoctrlPwmSyncModeCmd>true</FTM_HAL_SetSwoctrlPwmSyncModeCmd>
-      <FTM_HAL_SetInvctrlPwmSyncModeCmd>true</FTM_HAL_SetInvctrlPwmSyncModeCmd>
-      <FTM_HAL_SetCntinPwmSyncModeCmd>true</FTM_HAL_SetCntinPwmSyncModeCmd>
-      <FTM_HAL_Reset>true</FTM_HAL_Reset>
-      <FTM_HAL_Init>true</FTM_HAL_Init>
-      <FTM_HAL_EnablePwmMode>true</FTM_HAL_EnablePwmMode>
-      <FTM_HAL_DisablePwmMode>true</FTM_HAL_DisablePwmMode>
-      <GenNumEvents>0</GenNumEvents>
-      <GenSmartUserChangesDetected_Header>false</GenSmartUserChangesDetected_Header>
-      <GenSmartUserChangesDetected_Code>false</GenSmartUserChangesDetected_Code>
-      <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
-      <GenMethodPos>0</GenMethodPos>
-      <GenExtraFilesCount>2</GenExtraFilesCount>
-      <ExtraFile0>SDK\platform\hal\inc\fsl_ftm_hal.h</ExtraFile0>
-      <ExtraFile1>SDK\platform\hal\src\ftm\fsl_ftm_hal.c</ExtraFile1>
-    </InhrCompID_35>
-  </ComponentID_34>
   <ComponentID_39>
     <Generated>true</Generated>
     <GenCompName>SERIAL1</GenCompName>
@@ -2423,6 +2307,321 @@
       <ExtraFile1>SDK\platform\hal\src\pit\fsl_pit_hal.c</ExtraFile1>
     </InhrCompID_47>
   </ComponentID_46>
+  <ComponentID_48>
+    <Generated>true</Generated>
+    <GenCompName>adConv1</GenCompName>
+    <GenComponentVersion>1.2.0</GenComponentVersion>
+    <GenDriverVersion>01.00</GenDriverVersion>
+    <GenEventModule>Events</GenEventModule>
+    <HeaderAge>1195804987</HeaderAge>
+    <CodeAge>1195805700</CodeAge>
+    <AsemblAge>-1</AsemblAge>
+    <GenNumMethods>15</GenNumMethods>
+    <ADC16_DRV_GetAutoCalibrationParam>true</ADC16_DRV_GetAutoCalibrationParam>
+    <ADC16_DRV_SetCalibrationParam>true</ADC16_DRV_SetCalibrationParam>
+    <ADC16_DRV_StructInitUserConfigDefault>true</ADC16_DRV_StructInitUserConfigDefault>
+    <ADC16_DRV_Init>true</ADC16_DRV_Init>
+    <ADC16_DRV_Deinit>true</ADC16_DRV_Deinit>
+    <ADC16_DRV_ConfigHwCompare>true</ADC16_DRV_ConfigHwCompare>
+    <ADC16_DRV_ConfigHwAverage>true</ADC16_DRV_ConfigHwAverage>
+    <ADC16_DRV_SetChnMux>true</ADC16_DRV_SetChnMux>
+    <ADC16_DRV_ConfigConvChn>true</ADC16_DRV_ConfigConvChn>
+    <ADC16_DRV_WaitConvDone>true</ADC16_DRV_WaitConvDone>
+    <ADC16_DRV_PauseConv>true</ADC16_DRV_PauseConv>
+    <ADC16_DRV_GetConvValueRAW>true</ADC16_DRV_GetConvValueRAW>
+    <ADC16_DRV_GetConvValueSigned>true</ADC16_DRV_GetConvValueSigned>
+    <ADC16_DRV_GetConvFlag>true</ADC16_DRV_GetConvFlag>
+    <ADC16_DRV_GetChnFlag>true</ADC16_DRV_GetChnFlag>
+    <GenNumEvents>1</GenNumEvents>
+    <IrqHandler_Selected>1</IrqHandler_Selected>
+    <IrqHandler_Name>ADC0_IRQHandler</IrqHandler_Name>
+    <IrqHandler_Priority>interrupts disabled</IrqHandler_Priority>
+    <GenSmartUserChangesDetected_Header>false</GenSmartUserChangesDetected_Header>
+    <GenSmartUserChangesDetected_Code>false</GenSmartUserChangesDetected_Code>
+    <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
+    <GenMethodPos>0</GenMethodPos>
+    <GenExtraFilesCount>3</GenExtraFilesCount>
+    <ExtraFile0>SDK\platform\drivers\inc\fsl_adc16_driver.h</ExtraFile0>
+    <ExtraFile1>SDK\platform\drivers\src\adc16\fsl_adc16_driver.c</ExtraFile1>
+    <ExtraFile2>SDK\platform\drivers\src\adc16\fsl_adc16_common.c</ExtraFile2>
+    <InhrCompID_49>
+      <Generated>true</Generated>
+      <GenCompName>fsl_adc16_hal1</GenCompName>
+      <GenComponentVersion>1.2.0</GenComponentVersion>
+      <GenDriverVersion>01.00</GenDriverVersion>
+      <GenEventModule />
+      <HeaderAge>-1</HeaderAge>
+      <CodeAge>-1</CodeAge>
+      <AsemblAge>-1</AsemblAge>
+      <GenNumMethods>18</GenNumMethods>
+      <ADC16_HAL_Init>true</ADC16_HAL_Init>
+      <ADC16_HAL_ConfigChn>true</ADC16_HAL_ConfigChn>
+      <ADC16_HAL_GetChnConvCompletedFlag>true</ADC16_HAL_GetChnConvCompletedFlag>
+      <ADC16_HAL_ConfigConverter>true</ADC16_HAL_ConfigConverter>
+      <ADC16_HAL_ConfigHwCompare>true</ADC16_HAL_ConfigHwCompare>
+      <ADC16_HAL_ConfigHwAverage>true</ADC16_HAL_ConfigHwAverage>
+      <ADC16_HAL_GetChnConvValue>true</ADC16_HAL_GetChnConvValue>
+      <ADC16_HAL_GetConvActiveFlag>true</ADC16_HAL_GetConvActiveFlag>
+      <ADC16_HAL_SetChnMuxMode>true</ADC16_HAL_SetChnMuxMode>
+      <ADC16_HAL_SetAutoCalibrationCmd>true</ADC16_HAL_SetAutoCalibrationCmd>
+      <ADC16_HAL_GetAutoCalibrationActiveFlag>true</ADC16_HAL_GetAutoCalibrationActiveFlag>
+      <ADC16_HAL_GetAutoCalibrationFailedFlag>true</ADC16_HAL_GetAutoCalibrationFailedFlag>
+      <ADC16_HAL_GetAutoPlusSideGainValue>true</ADC16_HAL_GetAutoPlusSideGainValue>
+      <ADC16_HAL_SetPlusSideGainValue>true</ADC16_HAL_SetPlusSideGainValue>
+      <ADC16_HAL_GetAutoMinusSideGainValue>true</ADC16_HAL_GetAutoMinusSideGainValue>
+      <ADC16_HAL_SetMinusSideGainValue>true</ADC16_HAL_SetMinusSideGainValue>
+      <ADC16_HAL_GetOffsetValue>true</ADC16_HAL_GetOffsetValue>
+      <ADC16_HAL_SetOffsetValue>true</ADC16_HAL_SetOffsetValue>
+      <GenNumEvents>0</GenNumEvents>
+      <GenSmartUserChangesDetected_Header>false</GenSmartUserChangesDetected_Header>
+      <GenSmartUserChangesDetected_Code>false</GenSmartUserChangesDetected_Code>
+      <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
+      <GenMethodPos>0</GenMethodPos>
+      <GenExtraFilesCount>2</GenExtraFilesCount>
+      <ExtraFile0>SDK\platform\hal\inc\fsl_adc16_hal.h</ExtraFile0>
+      <ExtraFile1>SDK\platform\hal\src\adc16\fsl_adc16_hal.c</ExtraFile1>
+    </InhrCompID_49>
+  </ComponentID_48>
+  <ComponentID_50>
+    <Generated>true</Generated>
+    <GenCompName>adConv2</GenCompName>
+    <GenComponentVersion>1.2.0</GenComponentVersion>
+    <GenDriverVersion>01.00</GenDriverVersion>
+    <GenEventModule>Events</GenEventModule>
+    <HeaderAge>1195806186</HeaderAge>
+    <CodeAge>1195809458</CodeAge>
+    <AsemblAge>-1</AsemblAge>
+    <GenNumMethods>15</GenNumMethods>
+    <ADC16_DRV_GetAutoCalibrationParam>true</ADC16_DRV_GetAutoCalibrationParam>
+    <ADC16_DRV_SetCalibrationParam>true</ADC16_DRV_SetCalibrationParam>
+    <ADC16_DRV_StructInitUserConfigDefault>true</ADC16_DRV_StructInitUserConfigDefault>
+    <ADC16_DRV_Init>true</ADC16_DRV_Init>
+    <ADC16_DRV_Deinit>true</ADC16_DRV_Deinit>
+    <ADC16_DRV_ConfigHwCompare>true</ADC16_DRV_ConfigHwCompare>
+    <ADC16_DRV_ConfigHwAverage>true</ADC16_DRV_ConfigHwAverage>
+    <ADC16_DRV_SetChnMux>true</ADC16_DRV_SetChnMux>
+    <ADC16_DRV_ConfigConvChn>true</ADC16_DRV_ConfigConvChn>
+    <ADC16_DRV_WaitConvDone>true</ADC16_DRV_WaitConvDone>
+    <ADC16_DRV_PauseConv>true</ADC16_DRV_PauseConv>
+    <ADC16_DRV_GetConvValueRAW>true</ADC16_DRV_GetConvValueRAW>
+    <ADC16_DRV_GetConvValueSigned>true</ADC16_DRV_GetConvValueSigned>
+    <ADC16_DRV_GetConvFlag>true</ADC16_DRV_GetConvFlag>
+    <ADC16_DRV_GetChnFlag>true</ADC16_DRV_GetChnFlag>
+    <GenNumEvents>1</GenNumEvents>
+    <IrqHandler_Selected>1</IrqHandler_Selected>
+    <IrqHandler_Name>ADC1_IRQHandler</IrqHandler_Name>
+    <IrqHandler_Priority>interrupts disabled</IrqHandler_Priority>
+    <GenSmartUserChangesDetected_Header>false</GenSmartUserChangesDetected_Header>
+    <GenSmartUserChangesDetected_Code>false</GenSmartUserChangesDetected_Code>
+    <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
+    <GenMethodPos>0</GenMethodPos>
+    <GenExtraFilesCount>3</GenExtraFilesCount>
+    <ExtraFile0>SDK\platform\drivers\inc\fsl_adc16_driver.h</ExtraFile0>
+    <ExtraFile1>SDK\platform\drivers\src\adc16\fsl_adc16_driver.c</ExtraFile1>
+    <ExtraFile2>SDK\platform\drivers\src\adc16\fsl_adc16_common.c</ExtraFile2>
+    <InhrCompID_51>
+      <Generated>true</Generated>
+      <GenCompName>fsl_adc16_hal2</GenCompName>
+      <GenComponentVersion>1.2.0</GenComponentVersion>
+      <GenDriverVersion>01.00</GenDriverVersion>
+      <GenEventModule />
+      <HeaderAge>-1</HeaderAge>
+      <CodeAge>-1</CodeAge>
+      <AsemblAge>-1</AsemblAge>
+      <GenNumMethods>18</GenNumMethods>
+      <ADC16_HAL_Init>true</ADC16_HAL_Init>
+      <ADC16_HAL_ConfigChn>true</ADC16_HAL_ConfigChn>
+      <ADC16_HAL_GetChnConvCompletedFlag>true</ADC16_HAL_GetChnConvCompletedFlag>
+      <ADC16_HAL_ConfigConverter>true</ADC16_HAL_ConfigConverter>
+      <ADC16_HAL_ConfigHwCompare>true</ADC16_HAL_ConfigHwCompare>
+      <ADC16_HAL_ConfigHwAverage>true</ADC16_HAL_ConfigHwAverage>
+      <ADC16_HAL_GetChnConvValue>true</ADC16_HAL_GetChnConvValue>
+      <ADC16_HAL_GetConvActiveFlag>true</ADC16_HAL_GetConvActiveFlag>
+      <ADC16_HAL_SetChnMuxMode>true</ADC16_HAL_SetChnMuxMode>
+      <ADC16_HAL_SetAutoCalibrationCmd>true</ADC16_HAL_SetAutoCalibrationCmd>
+      <ADC16_HAL_GetAutoCalibrationActiveFlag>true</ADC16_HAL_GetAutoCalibrationActiveFlag>
+      <ADC16_HAL_GetAutoCalibrationFailedFlag>true</ADC16_HAL_GetAutoCalibrationFailedFlag>
+      <ADC16_HAL_GetAutoPlusSideGainValue>true</ADC16_HAL_GetAutoPlusSideGainValue>
+      <ADC16_HAL_SetPlusSideGainValue>true</ADC16_HAL_SetPlusSideGainValue>
+      <ADC16_HAL_GetAutoMinusSideGainValue>true</ADC16_HAL_GetAutoMinusSideGainValue>
+      <ADC16_HAL_SetMinusSideGainValue>true</ADC16_HAL_SetMinusSideGainValue>
+      <ADC16_HAL_GetOffsetValue>true</ADC16_HAL_GetOffsetValue>
+      <ADC16_HAL_SetOffsetValue>true</ADC16_HAL_SetOffsetValue>
+      <GenNumEvents>0</GenNumEvents>
+      <GenSmartUserChangesDetected_Header>false</GenSmartUserChangesDetected_Header>
+      <GenSmartUserChangesDetected_Code>false</GenSmartUserChangesDetected_Code>
+      <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
+      <GenMethodPos>0</GenMethodPos>
+      <GenExtraFilesCount>2</GenExtraFilesCount>
+      <ExtraFile0>SDK\platform\hal\inc\fsl_adc16_hal.h</ExtraFile0>
+      <ExtraFile1>SDK\platform\hal\src\adc16\fsl_adc16_hal.c</ExtraFile1>
+    </InhrCompID_51>
+  </ComponentID_50>
+  <ComponentID_56>
+    <Generated>true</Generated>
+    <GenCompName>flexTimer1</GenCompName>
+    <GenComponentVersion>1.2.0</GenComponentVersion>
+    <GenDriverVersion>01.00</GenDriverVersion>
+    <GenEventModule>Events</GenEventModule>
+    <HeaderAge>1195939844</HeaderAge>
+    <CodeAge>1195939977</CodeAge>
+    <AsemblAge>-1</AsemblAge>
+    <GenNumMethods>17</GenNumMethods>
+    <FTM_DRV_Init>true</FTM_DRV_Init>
+    <FTM_DRV_Deinit>true</FTM_DRV_Deinit>
+    <FTM_DRV_PwmStop>true</FTM_DRV_PwmStop>
+    <FTM_DRV_PwmStart>true</FTM_DRV_PwmStart>
+    <FTM_DRV_QuadDecodeStart>true</FTM_DRV_QuadDecodeStart>
+    <FTM_DRV_QuadDecodeStop>true</FTM_DRV_QuadDecodeStop>
+    <FTM_DRV_CounterStart>true</FTM_DRV_CounterStart>
+    <FTM_DRV_CounterStop>true</FTM_DRV_CounterStop>
+    <FTM_DRV_CounterRead>true</FTM_DRV_CounterRead>
+    <FTM_DRV_SetClock>true</FTM_DRV_SetClock>
+    <FTM_DRV_GetClock>true</FTM_DRV_GetClock>
+    <FTM_DRV_SetTimeOverflowIntCmd>true</FTM_DRV_SetTimeOverflowIntCmd>
+    <FTM_DRV_SetFaultIntCmd>true</FTM_DRV_SetFaultIntCmd>
+    <FTM_DRV_SetupChnInputCapture>true</FTM_DRV_SetupChnInputCapture>
+    <FTM_DRV_SetupChnOutputCompare>true</FTM_DRV_SetupChnOutputCompare>
+    <FTM_DRV_SetupChnDualEdgeCapture>true</FTM_DRV_SetupChnDualEdgeCapture>
+    <FTM_DRV_IRQHandler>true</FTM_DRV_IRQHandler>
+    <GenNumEvents>1</GenNumEvents>
+    <IrqHandler_Selected>3</IrqHandler_Selected>
+    <IrqHandler_Name>FTM0_IRQHandler</IrqHandler_Name>
+    <IrqHandler_Priority>interrupts disabled</IrqHandler_Priority>
+    <GenSmartUserChangesDetected_Header>false</GenSmartUserChangesDetected_Header>
+    <GenSmartUserChangesDetected_Code>false</GenSmartUserChangesDetected_Code>
+    <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
+    <GenMethodPos>0</GenMethodPos>
+    <GenExtraFilesCount>3</GenExtraFilesCount>
+    <ExtraFile0>SDK\platform\drivers\inc\fsl_ftm_driver.h</ExtraFile0>
+    <ExtraFile1>SDK\platform\drivers\src\ftm\fsl_ftm_driver.c</ExtraFile1>
+    <ExtraFile2>SDK\platform\drivers\src\ftm\fsl_ftm_common.c</ExtraFile2>
+    <InhrCompID_57>
+      <Generated>true</Generated>
+      <GenCompName>fsl_ftm_hal1</GenCompName>
+      <GenComponentVersion>1.2.0</GenComponentVersion>
+      <GenDriverVersion>01.00</GenDriverVersion>
+      <GenEventModule />
+      <HeaderAge>-1</HeaderAge>
+      <CodeAge>-1</CodeAge>
+      <AsemblAge>-1</AsemblAge>
+      <GenNumMethods>106</GenNumMethods>
+      <FTM_HAL_SetClockSource>true</FTM_HAL_SetClockSource>
+      <FTM_HAL_GetClockSource>true</FTM_HAL_GetClockSource>
+      <FTM_HAL_SetClockPs>true</FTM_HAL_SetClockPs>
+      <FTM_HAL_GetClockPs>true</FTM_HAL_GetClockPs>
+      <FTM_HAL_EnableTimerOverflowInt>true</FTM_HAL_EnableTimerOverflowInt>
+      <FTM_HAL_DisableTimerOverflowInt>true</FTM_HAL_DisableTimerOverflowInt>
+      <FTM_HAL_IsOverflowIntEnabled>true</FTM_HAL_IsOverflowIntEnabled>
+      <FTM_HAL_ClearTimerOverflow>true</FTM_HAL_ClearTimerOverflow>
+      <FTM_HAL_HasTimerOverflowed>true</FTM_HAL_HasTimerOverflowed>
+      <FTM_HAL_SetCpwms>true</FTM_HAL_SetCpwms>
+      <FTM_HAL_SetCounter>true</FTM_HAL_SetCounter>
+      <FTM_HAL_GetCounter>true</FTM_HAL_GetCounter>
+      <FTM_HAL_SetMod>true</FTM_HAL_SetMod>
+      <FTM_HAL_GetMod>true</FTM_HAL_GetMod>
+      <FTM_HAL_SetCounterInitVal>true</FTM_HAL_SetCounterInitVal>
+      <FTM_HAL_GetCounterInitVal>true</FTM_HAL_GetCounterInitVal>
+      <FTM_HAL_SetChnMSnBAMode>true</FTM_HAL_SetChnMSnBAMode>
+      <FTM_HAL_SetChnEdgeLevel>true</FTM_HAL_SetChnEdgeLevel>
+      <FTM_HAL_GetChnMode>true</FTM_HAL_GetChnMode>
+      <FTM_HAL_GetChnEdgeLevel>true</FTM_HAL_GetChnEdgeLevel>
+      <FTM_HAL_SetChnDmaCmd>true</FTM_HAL_SetChnDmaCmd>
+      <FTM_HAL_IsChnDma>true</FTM_HAL_IsChnDma>
+      <FTM_HAL_IsChnIntEnabled>true</FTM_HAL_IsChnIntEnabled>
+      <FTM_HAL_EnableChnInt>true</FTM_HAL_EnableChnInt>
+      <FTM_HAL_DisableChnInt>true</FTM_HAL_DisableChnInt>
+      <FTM_HAL_HasChnEventOccurred>true</FTM_HAL_HasChnEventOccurred>
+      <FTM_HAL_ClearChnEventFlag>true</FTM_HAL_ClearChnEventFlag>
+      <FTM_HAL_SetChnCountVal>true</FTM_HAL_SetChnCountVal>
+      <FTM_HAL_GetChnCountVal>true</FTM_HAL_GetChnCountVal>
+      <FTM_HAL_GetChnEventStatus>true</FTM_HAL_GetChnEventStatus>
+      <FTM_HAL_ClearChnEventStatus>true</FTM_HAL_ClearChnEventStatus>
+      <FTM_HAL_SetOutmaskReg>true</FTM_HAL_SetOutmaskReg>
+      <FTM_HAL_SetChnOutputMask>true</FTM_HAL_SetChnOutputMask>
+      <FTM_HAL_SetChnOutputInitStateCmd>true</FTM_HAL_SetChnOutputInitStateCmd>
+      <FTM_HAL_SetChnOutputPolarityCmd>true</FTM_HAL_SetChnOutputPolarityCmd>
+      <FTM_HAL_SetChnFaultInputPolarityCmd>true</FTM_HAL_SetChnFaultInputPolarityCmd>
+      <FTM_HAL_EnableFaultInt>true</FTM_HAL_EnableFaultInt>
+      <FTM_HAL_DisableFaultInt>true</FTM_HAL_DisableFaultInt>
+      <FTM_HAL_SetFaultControlMode>true</FTM_HAL_SetFaultControlMode>
+      <FTM_HAL_SetCaptureTestCmd>true</FTM_HAL_SetCaptureTestCmd>
+      <FTM_HAL_SetWriteProtectionCmd>true</FTM_HAL_SetWriteProtectionCmd>
+      <FTM_HAL_Enable>true</FTM_HAL_Enable>
+      <FTM_HAL_SetInitChnOutputCmd>true</FTM_HAL_SetInitChnOutputCmd>
+      <FTM_HAL_SetPwmSyncMode>true</FTM_HAL_SetPwmSyncMode>
+      <FTM_HAL_SetSoftwareTriggerCmd>true</FTM_HAL_SetSoftwareTriggerCmd>
+      <FTM_HAL_SetHardwareSyncTriggerSrc>true</FTM_HAL_SetHardwareSyncTriggerSrc>
+      <FTM_HAL_SetOutmaskPwmSyncModeCmd>true</FTM_HAL_SetOutmaskPwmSyncModeCmd>
+      <FTM_HAL_SetCountReinitSyncCmd>true</FTM_HAL_SetCountReinitSyncCmd>
+      <FTM_HAL_SetMaxLoadingCmd>true</FTM_HAL_SetMaxLoadingCmd>
+      <FTM_HAL_SetMinLoadingCmd>true</FTM_HAL_SetMinLoadingCmd>
+      <FTM_HAL_GetChnPairIndex>true</FTM_HAL_GetChnPairIndex>
+      <FTM_HAL_SetDualChnFaultCmd>true</FTM_HAL_SetDualChnFaultCmd>
+      <FTM_HAL_SetDualChnPwmSyncCmd>true</FTM_HAL_SetDualChnPwmSyncCmd>
+      <FTM_HAL_SetDualChnDeadtimeCmd>true</FTM_HAL_SetDualChnDeadtimeCmd>
+      <FTM_HAL_SetDualChnDecapCmd>true</FTM_HAL_SetDualChnDecapCmd>
+      <FTM_HAL_SetDualEdgeCaptureCmd>true</FTM_HAL_SetDualEdgeCaptureCmd>
+      <FTM_HAL_SetDualChnCompCmd>true</FTM_HAL_SetDualChnCompCmd>
+      <FTM_HAL_SetDualChnCombineCmd>true</FTM_HAL_SetDualChnCombineCmd>
+      <FTM_HAL_SetDeadtimePrescale>true</FTM_HAL_SetDeadtimePrescale>
+      <FTM_HAL_SetDeadtimeCount>true</FTM_HAL_SetDeadtimeCount>
+      <FTM_HAL_SetInitTriggerCmd>true</FTM_HAL_SetInitTriggerCmd>
+      <FTM_HAL_SetChnTriggerCmd>true</FTM_HAL_SetChnTriggerCmd>
+      <FTM_HAL_IsChnTriggerGenerated>true</FTM_HAL_IsChnTriggerGenerated>
+      <FTM_HAL_GetDetectedFaultInput>true</FTM_HAL_GetDetectedFaultInput>
+      <FTM_HAL_IsWriteProtectionEnabled>true</FTM_HAL_IsWriteProtectionEnabled>
+      <FTM_HAL_SetQuadDecoderCmd>true</FTM_HAL_SetQuadDecoderCmd>
+      <FTM_HAL_SetQuadPhaseAFilterCmd>true</FTM_HAL_SetQuadPhaseAFilterCmd>
+      <FTM_HAL_SetQuadPhaseBFilterCmd>true</FTM_HAL_SetQuadPhaseBFilterCmd>
+      <FTM_HAL_SetQuadPhaseAPolarity>true</FTM_HAL_SetQuadPhaseAPolarity>
+      <FTM_HAL_SetQuadPhaseBPolarity>true</FTM_HAL_SetQuadPhaseBPolarity>
+      <FTM_HAL_SetQuadMode>true</FTM_HAL_SetQuadMode>
+      <FTM_HAL_GetQuadDir>true</FTM_HAL_GetQuadDir>
+      <FTM_HAL_GetQuadTimerOverflowDir>true</FTM_HAL_GetQuadTimerOverflowDir>
+      <FTM_HAL_SetChnInputCaptureFilter>true</FTM_HAL_SetChnInputCaptureFilter>
+      <FTM_HAL_SetFaultInputFilterVal>true</FTM_HAL_SetFaultInputFilterVal>
+      <FTM_HAL_SetFaultInputFilterCmd>true</FTM_HAL_SetFaultInputFilterCmd>
+      <FTM_HAL_SetFaultInputCmd>true</FTM_HAL_SetFaultInputCmd>
+      <FTM_HAL_SetDualChnInvertCmd>true</FTM_HAL_SetDualChnInvertCmd>
+      <FTM_HAL_SetInvctrlReg>true</FTM_HAL_SetInvctrlReg>
+      <FTM_HAL_SetChnSoftwareCtrlCmd>true</FTM_HAL_SetChnSoftwareCtrlCmd>
+      <FTM_HAL_SetChnSoftwareCtrlVal>true</FTM_HAL_SetChnSoftwareCtrlVal>
+      <FTM_HAL_SetPwmLoadCmd>true</FTM_HAL_SetPwmLoadCmd>
+      <FTM_HAL_SetPwmLoadChnSelCmd>true</FTM_HAL_SetPwmLoadChnSelCmd>
+      <FTM_HAL_SetGlobalTimeBaseOutputCmd>true</FTM_HAL_SetGlobalTimeBaseOutputCmd>
+      <FTM_HAL_SetGlobalTimeBaseCmd>true</FTM_HAL_SetGlobalTimeBaseCmd>
+      <FTM_HAL_SetBdmMode>true</FTM_HAL_SetBdmMode>
+      <FTM_HAL_SetTofFreq>true</FTM_HAL_SetTofFreq>
+      <FTM_HAL_SetSyncMode>true</FTM_HAL_SetSyncMode>
+      <FTM_HAL_SetSwoctrlHardwareSyncModeCmd>true</FTM_HAL_SetSwoctrlHardwareSyncModeCmd>
+      <FTM_HAL_SetInvctrlHardwareSyncModeCmd>true</FTM_HAL_SetInvctrlHardwareSyncModeCmd>
+      <FTM_HAL_SetOutmaskHardwareSyncModeCmd>true</FTM_HAL_SetOutmaskHardwareSyncModeCmd>
+      <FTM_HAL_SetModCntinCvHardwareSyncModeCmd>true</FTM_HAL_SetModCntinCvHardwareSyncModeCmd>
+      <FTM_HAL_SetCounterHardwareSyncModeCmd>true</FTM_HAL_SetCounterHardwareSyncModeCmd>
+      <FTM_HAL_SetSwoctrlSoftwareSyncModeCmd>true</FTM_HAL_SetSwoctrlSoftwareSyncModeCmd>
+      <FTM_HAL_SetInvctrlSoftwareSyncModeCmd>true</FTM_HAL_SetInvctrlSoftwareSyncModeCmd>
+      <FTM_HAL_SetOutmaskSoftwareSyncModeCmd>true</FTM_HAL_SetOutmaskSoftwareSyncModeCmd>
+      <FTM_HAL_SetModCntinCvSoftwareSyncModeCmd>true</FTM_HAL_SetModCntinCvSoftwareSyncModeCmd>
+      <FTM_HAL_SetCounterSoftwareSyncModeCmd>true</FTM_HAL_SetCounterSoftwareSyncModeCmd>
+      <FTM_HAL_SetPwmSyncModeCmd>true</FTM_HAL_SetPwmSyncModeCmd>
+      <FTM_HAL_SetSwoctrlPwmSyncModeCmd>true</FTM_HAL_SetSwoctrlPwmSyncModeCmd>
+      <FTM_HAL_SetInvctrlPwmSyncModeCmd>true</FTM_HAL_SetInvctrlPwmSyncModeCmd>
+      <FTM_HAL_SetCntinPwmSyncModeCmd>true</FTM_HAL_SetCntinPwmSyncModeCmd>
+      <FTM_HAL_Reset>true</FTM_HAL_Reset>
+      <FTM_HAL_Init>true</FTM_HAL_Init>
+      <FTM_HAL_EnablePwmMode>true</FTM_HAL_EnablePwmMode>
+      <FTM_HAL_DisablePwmMode>true</FTM_HAL_DisablePwmMode>
+      <GenNumEvents>0</GenNumEvents>
+      <GenSmartUserChangesDetected_Header>false</GenSmartUserChangesDetected_Header>
+      <GenSmartUserChangesDetected_Code>false</GenSmartUserChangesDetected_Code>
+      <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
+      <GenMethodPos>0</GenMethodPos>
+      <GenExtraFilesCount>2</GenExtraFilesCount>
+      <ExtraFile0>SDK\platform\hal\inc\fsl_ftm_hal.h</ExtraFile0>
+      <ExtraFile1>SDK\platform\hal\src\ftm\fsl_ftm_hal.c</ExtraFile1>
+    </InhrCompID_57>
+  </ComponentID_56>
   <UsedSrcFiles>
     <SrcFile0>Drivers\PEx_Kinetis.src=1186555662</SrcFile0>
     <SrcFile1>Drivers\fsl_pit.src=-1</SrcFile1>
@@ -2435,88 +2634,91 @@
     <SrcFile8>Drivers\Common\Header.end=1183486427</SrcFile8>
     <SrcFile9>Drivers\Kinetis\1.2.0\fsl_os_abstraction.drv=-1</SrcFile9>
     <SrcFile10>Drivers\Common\WriteBlock_NotRst.prg=1183486427</SrcFile10>
-    <SrcFile11>Drivers\Kinetis\HAL_Sim_Bridge_MK64F12.prg=1186555662</SrcFile11>
-    <SrcFile12>Drivers\Kinetis\1.2.0\fsl_os_abstraction_code.drv=-1</SrcFile12>
-    <SrcFile13>Drivers\Common\KinetisCommon_Init.inc=1183486427</SrcFile13>
-    <SrcFile14>Drivers\Common\GeneralParametersNone.inc=1183486427</SrcFile14>
-    <SrcFile15>Drivers\Common\HeaderFreescale.h=1183486427</SrcFile15>
-    <SrcFile16>Drivers\fsl_os_abstraction.src=-1</SrcFile16>
-    <SrcFile17>Drivers\Kinetis\1.2.0\fsl_dspi_hal.drv=-1</SrcFile17>
-    <SrcFile18>Drivers\Kinetis\1.2.0\StaticSdk_Kinetis.prg=1186555667</SrcFile18>
+    <SrcFile11>Drivers\Kinetis\1.2.0\fsl_os_abstraction_code.drv=-1</SrcFile11>
+    <SrcFile12>Drivers\Common\KinetisCommon_Init.inc=1183486427</SrcFile12>
+    <SrcFile13>Drivers\Common\GeneralParametersNone.inc=1183486427</SrcFile13>
+    <SrcFile14>Drivers\Common\HeaderFreescale.h=1183486427</SrcFile14>
+    <SrcFile15>Drivers\fsl_os_abstraction.src=-1</SrcFile15>
+    <SrcFile16>Drivers\Kinetis\1.2.0\fsl_dspi_hal.drv=-1</SrcFile16>
+    <SrcFile17>Drivers\Kinetis\1.2.0\StaticSdk_Kinetis.prg=1186555667</SrcFile17>
+    <SrcFile18>Drivers\Kinetis\1.2.0\fsl_adc16.drv=-1</SrcFile18>
     <SrcFile19>Drivers\Common\Header.doxy=1183486427</SrcFile19>
-    <SrcFile20>Drivers\Common\GenInitConfigSequence.prg=1183486427</SrcFile20>
-    <SrcFile21>Drivers\Kinetis\1.2.0\fsl_clock_manager_code.drv=-1</SrcFile21>
-    <SrcFile22>Drivers\Common\GeneralInternalGlobal.inc=1183486427</SrcFile22>
-    <SrcFile23>Drivers\Kinetis\1.2.0\fsl_rtc_hal.drv=-1</SrcFile23>
-    <SrcFile24>Drivers\Common\GeneralInternalDescription.prg=1183486427</SrcFile24>
-    <SrcFile25>Drivers\Common\Static_SupportSubroutines.prg=1186555667</SrcFile25>
-    <SrcFile26>Drivers\Common\ToolChain_Settings.prg=1183486427</SrcFile26>
-    <SrcFile27>Drivers\Kinetis\1.2.0\fsl_gpio.drv=-1</SrcFile27>
-    <SrcFile28>Drivers\Common\HeaderFreescale.C=1183486427</SrcFile28>
-    <SrcFile29>Drivers\sw\RTOSAdaptor\Default_RTOSAdaptor.prg=1183484979</SrcFile29>
-    <SrcFile30>Drivers\fsl_pit_hal.src=-1</SrcFile30>
-    <SrcFile31>Drivers\Kinetis\1.2.0\fsl_osc_hal.drv=-1</SrcFile31>
-    <SrcFile32>Drivers\Kinetis\KinetisSdk_Linker_V1.prg=1186555664</SrcFile32>
-    <SrcFile33>Drivers\fsl_gpio.src=-1</SrcFile33>
-    <SrcFile34>Drivers\fsl_uart.src=-1</SrcFile34>
-    <SrcFile35>Drivers\Kinetis\1.2.0\fsl_port_hal.drv=-1</SrcFile35>
-    <SrcFile36>Drivers\fsl_ftm_hal.src=-1</SrcFile36>
-    <SrcFile37>Drivers\sw\PinSettings.drv=-1</SrcFile37>
-    <SrcFile38>Drivers\Kinetis\1.2.0\fsl_mcg_hal.drv=-1</SrcFile38>
-    <SrcFile39>Drivers\Kinetis\1.2.0\HAL_Sim_Bridge.prg=1186555667</SrcFile39>
-    <SrcFile40>Drivers\Kinetis\StaticSdk_Kinetis_V4.drv=1186555663</SrcFile40>
-    <SrcFile41>Drivers\Kinetis\HAL_Port_Bridge_V2.prg=1186555664</SrcFile41>
-    <SrcFile42>Drivers\Common\InitReg32Block.prg=1183486427</SrcFile42>
-    <SrcFile43>Drivers\fsl_mcg_hal.src=-1</SrcFile43>
-    <SrcFile44>Drivers\fsl_clock_manager.src=-1</SrcFile44>
-    <SrcFile45>Drivers\Common\CommonInitialization_NotRst.prg=1183486427</SrcFile45>
-    <SrcFile46>Drivers\Common\GenReg8BitsInitInfo.prg=1183486427</SrcFile46>
-    <SrcFile47>Drivers\Kinetis\1.2.0\HAL_Port_Bridge.prg=1186555667</SrcFile47>
-    <SrcFile48>Drivers\Common\KinetisAbstract.inc=1183486427</SrcFile48>
-    <SrcFile49>Drivers\fsl_rtc_hal.src=-1</SrcFile49>
-    <SrcFile50>Drivers\Kinetis\1.2.0\fsl_pit_hal.drv=-1</SrcFile50>
-    <SrcFile51>Drivers\Common\GenReg32BitsInitInfo.prg=1183486427</SrcFile51>
-    <SrcFile52>Drivers\Common\InitRegBlock.prg=1183486427</SrcFile52>
-    <SrcFile53>Drivers\fsl_gpio_hal.src=-1</SrcFile53>
-    <SrcFile54>Drivers\Common\GeneralDamage.inc=1183486427</SrcFile54>
-    <SrcFile55>Drivers\Common\EBGNSupport\StringLib.prg=1183486427</SrcFile55>
-    <SrcFile56>Drivers\Kinetis\1.2.0\fsl_pit.drv=-1</SrcFile56>
-    <SrcFile57>Drivers\Common\fsl_os_abstractionAbstract.inc=-1</SrcFile57>
-    <SrcFile58>Drivers\Common\Header.c=1183486427</SrcFile58>
-    <SrcFile59>Drivers\fsl_interrupt_manager.src=-1</SrcFile59>
-    <SrcFile60>Drivers\fsl_dspi.src=-1</SrcFile60>
-    <SrcFile61>Drivers\Kinetis\1.2.0\fsl_gpio_code.drv=-1</SrcFile61>
-    <SrcFile62>Drivers\Kinetis\1.2.0\fsl_uart_code.drv=-1</SrcFile62>
-    <SrcFile63>Drivers\Common\Header.h=1183486427</SrcFile63>
-    <SrcFile64>Drivers\Kinetis\1.2.0\fsl_interrupt_manager.drv=-1</SrcFile64>
-    <SrcFile65>Drivers\Kinetis\Static_Kinetis_MCG.prg=1186555666</SrcFile65>
-    <SrcFile66>Drivers\Kinetis\1.2.0\fsl_gpio_hal.drv=-1</SrcFile66>
-    <SrcFile67>Drivers\fsl_dspi_hal.src=-1</SrcFile67>
-    <SrcFile68>Drivers\Kinetis\1.2.0\fsl_ftm_code.drv=-1</SrcFile68>
-    <SrcFile69>Drivers\Common\Doxy_CollectRegInitInfo.prg=1183486427</SrcFile69>
-    <SrcFile70>Drivers\Kinetis\1.2.0\fsl_uart_hal.drv=-1</SrcFile70>
-    <SrcFile71>Drivers\sw\RTOSAdaptor\Common_RTOSAdaptor.prg=1183484979</SrcFile71>
-    <SrcFile72>Drivers\Kinetis\1.2.0\fsl_ftm.drv=-1</SrcFile72>
-    <SrcFile73>Drivers\fsl_osc_hal.src=-1</SrcFile73>
-    <SrcFile74>Drivers\Kinetis\1.2.0\fsl_dspi.drv=-1</SrcFile74>
-    <SrcFile75>Drivers\Kinetis\1.2.0\fsl_pit_code.drv=-1</SrcFile75>
-    <SrcFile76>Drivers\Kinetis\system_KinetisK_h.prg=1186555667</SrcFile76>
-    <SrcFile77>Drivers\Kinetis\1.2.0\fsl_dspi_code.drv=-1</SrcFile77>
-    <SrcFile78>Drivers\Common\KinetisComponents_Init.inc=1183486427</SrcFile78>
-    <SrcFile79>Drivers\fsl_sim_hal.src=-1</SrcFile79>
-    <SrcFile80>Drivers\Kinetis\1.2.0\fsl_ftm_hal.drv=-1</SrcFile80>
-    <SrcFile81>lib\doxygen\pex.doxyfile=1183484846</SrcFile81>
-    <SrcFile82>Drivers\Common\GeneralReturnNothing.inc=1183486427</SrcFile82>
-    <SrcFile83>Drivers\Kinetis\StaticSdk_Kinetis.drv=1186555663</SrcFile83>
-    <SrcFile84>Drivers\Common\RTOSAdaptor.prg=1183486427</SrcFile84>
-    <SrcFile85>Drivers\Kinetis\PinSettings_MK64FN1M0LL12_4SDK.prg=-1</SrcFile85>
-    <SrcFile86>Drivers\Kinetis\1.2.0\fsl_uart.drv=-1</SrcFile86>
-    <SrcFile87>Drivers\fsl_uart_hal.src=-1</SrcFile87>
-    <SrcFile88>Drivers\Common\HeaderCopyright.inc=1183486427</SrcFile88>
-    <SrcFile89>Drivers\PinSettings.src=-1</SrcFile89>
-    <SrcFile90>Drivers\Common\KinetisSettings.inc=1183486427</SrcFile90>
-    <SrcFile91>Drivers\Common\fsl_uartAbstract.inc=-1</SrcFile91>
-    <SrcFile92>Drivers\Kinetis\1.2.0\fsl_sim_hal.drv=-1</SrcFile92>
+    <SrcFile20>Drivers\fsl_adc16.src=-1</SrcFile20>
+    <SrcFile21>Drivers\Common\GenInitConfigSequence.prg=1183486427</SrcFile21>
+    <SrcFile22>Drivers\Kinetis\1.2.0\fsl_clock_manager_code.drv=-1</SrcFile22>
+    <SrcFile23>Drivers\Common\GeneralInternalGlobal.inc=1183486427</SrcFile23>
+    <SrcFile24>Drivers\fsl_adc16_hal.src=-1</SrcFile24>
+    <SrcFile25>Drivers\Kinetis\1.2.0\fsl_rtc_hal.drv=-1</SrcFile25>
+    <SrcFile26>Drivers\Common\GeneralInternalDescription.prg=1183486427</SrcFile26>
+    <SrcFile27>Drivers\Common\Static_SupportSubroutines.prg=1186555667</SrcFile27>
+    <SrcFile28>Drivers\Common\ToolChain_Settings.prg=1183486427</SrcFile28>
+    <SrcFile29>Drivers\Kinetis\1.2.0\fsl_gpio.drv=-1</SrcFile29>
+    <SrcFile30>Drivers\Common\HeaderFreescale.C=1183486427</SrcFile30>
+    <SrcFile31>Drivers\sw\RTOSAdaptor\Default_RTOSAdaptor.prg=1183484979</SrcFile31>
+    <SrcFile32>Drivers\fsl_pit_hal.src=-1</SrcFile32>
+    <SrcFile33>Drivers\Kinetis\1.2.0\fsl_osc_hal.drv=-1</SrcFile33>
+    <SrcFile34>Drivers\Kinetis\KinetisSdk_Linker_V1.prg=1186555664</SrcFile34>
+    <SrcFile35>Drivers\fsl_gpio.src=-1</SrcFile35>
+    <SrcFile36>Drivers\fsl_uart.src=-1</SrcFile36>
+    <SrcFile37>Drivers\Kinetis\1.2.0\fsl_port_hal.drv=-1</SrcFile37>
+    <SrcFile38>Drivers\fsl_ftm_hal.src=-1</SrcFile38>
+    <SrcFile39>Drivers\sw\PinSettings.drv=-1</SrcFile39>
+    <SrcFile40>Drivers\Kinetis\1.2.0\fsl_mcg_hal.drv=-1</SrcFile40>
+    <SrcFile41>Drivers\Kinetis\StaticSdk_Kinetis_V4.drv=1186555663</SrcFile41>
+    <SrcFile42>Drivers\Kinetis\HAL_Port_Bridge_V2.prg=1186555664</SrcFile42>
+    <SrcFile43>Drivers\Common\InitReg32Block.prg=1183486427</SrcFile43>
+    <SrcFile44>Drivers\fsl_mcg_hal.src=-1</SrcFile44>
+    <SrcFile45>Drivers\fsl_clock_manager.src=-1</SrcFile45>
+    <SrcFile46>Drivers\Common\CommonInitialization_NotRst.prg=1183486427</SrcFile46>
+    <SrcFile47>Drivers\Common\GenReg8BitsInitInfo.prg=1183486427</SrcFile47>
+    <SrcFile48>Drivers\Kinetis\1.2.0\HAL_Port_Bridge.prg=1186555667</SrcFile48>
+    <SrcFile49>Drivers\Common\KinetisAbstract.inc=1183486427</SrcFile49>
+    <SrcFile50>Drivers\fsl_rtc_hal.src=-1</SrcFile50>
+    <SrcFile51>Drivers\Kinetis\1.2.0\fsl_pit_hal.drv=-1</SrcFile51>
+    <SrcFile52>Drivers\Common\GenReg32BitsInitInfo.prg=1183486427</SrcFile52>
+    <SrcFile53>Drivers\Common\InitRegBlock.prg=1183486427</SrcFile53>
+    <SrcFile54>Drivers\fsl_gpio_hal.src=-1</SrcFile54>
+    <SrcFile55>Drivers\Common\GeneralDamage.inc=1183486427</SrcFile55>
+    <SrcFile56>Drivers\Kinetis\1.2.0\fsl_adc16_hal.drv=-1</SrcFile56>
+    <SrcFile57>Drivers\Common\EBGNSupport\StringLib.prg=1183486427</SrcFile57>
+    <SrcFile58>Drivers\Kinetis\1.2.0\fsl_pit.drv=-1</SrcFile58>
+    <SrcFile59>Drivers\Common\fsl_os_abstractionAbstract.inc=-1</SrcFile59>
+    <SrcFile60>Drivers\Common\Header.c=1183486427</SrcFile60>
+    <SrcFile61>Drivers\fsl_interrupt_manager.src=-1</SrcFile61>
+    <SrcFile62>Drivers\fsl_dspi.src=-1</SrcFile62>
+    <SrcFile63>Drivers\Kinetis\1.2.0\fsl_gpio_code.drv=-1</SrcFile63>
+    <SrcFile64>Drivers\Kinetis\1.2.0\fsl_uart_code.drv=-1</SrcFile64>
+    <SrcFile65>Drivers\Common\Header.h=1183486427</SrcFile65>
+    <SrcFile66>Drivers\Kinetis\1.2.0\fsl_interrupt_manager.drv=-1</SrcFile66>
+    <SrcFile67>Drivers\Kinetis\Static_Kinetis_MCG.prg=1186555666</SrcFile67>
+    <SrcFile68>Drivers\Kinetis\1.2.0\fsl_gpio_hal.drv=-1</SrcFile68>
+    <SrcFile69>Drivers\fsl_dspi_hal.src=-1</SrcFile69>
+    <SrcFile70>Drivers\Kinetis\1.2.0\fsl_ftm_code.drv=-1</SrcFile70>
+    <SrcFile71>Drivers\Common\Doxy_CollectRegInitInfo.prg=1183486427</SrcFile71>
+    <SrcFile72>Drivers\Kinetis\1.2.0\fsl_uart_hal.drv=-1</SrcFile72>
+    <SrcFile73>Drivers\sw\RTOSAdaptor\Common_RTOSAdaptor.prg=1183484979</SrcFile73>
+    <SrcFile74>Drivers\Kinetis\1.2.0\fsl_ftm.drv=-1</SrcFile74>
+    <SrcFile75>Drivers\fsl_osc_hal.src=-1</SrcFile75>
+    <SrcFile76>Drivers\Kinetis\1.2.0\fsl_dspi.drv=-1</SrcFile76>
+    <SrcFile77>Drivers\Kinetis\1.2.0\fsl_pit_code.drv=-1</SrcFile77>
+    <SrcFile78>Drivers\Kinetis\system_KinetisK_h.prg=1186555667</SrcFile78>
+    <SrcFile79>Drivers\Kinetis\1.2.0\fsl_dspi_code.drv=-1</SrcFile79>
+    <SrcFile80>Drivers\Common\KinetisComponents_Init.inc=1183486427</SrcFile80>
+    <SrcFile81>Drivers\fsl_sim_hal.src=-1</SrcFile81>
+    <SrcFile82>Drivers\Kinetis\1.2.0\fsl_ftm_hal.drv=-1</SrcFile82>
+    <SrcFile83>lib\doxygen\pex.doxyfile=1183484846</SrcFile83>
+    <SrcFile84>Drivers\Common\GeneralReturnNothing.inc=1183486427</SrcFile84>
+    <SrcFile85>Drivers\Kinetis\StaticSdk_Kinetis.drv=1186555663</SrcFile85>
+    <SrcFile86>Drivers\Common\RTOSAdaptor.prg=1183486427</SrcFile86>
+    <SrcFile87>Drivers\Kinetis\PinSettings_MK64FN1M0LL12_4SDK.prg=-1</SrcFile87>
+    <SrcFile88>Drivers\Kinetis\1.2.0\fsl_adc16_code.drv=-1</SrcFile88>
+    <SrcFile89>Drivers\Kinetis\1.2.0\fsl_uart.drv=-1</SrcFile89>
+    <SrcFile90>Drivers\fsl_uart_hal.src=-1</SrcFile90>
+    <SrcFile91>Drivers\Common\HeaderCopyright.inc=1183486427</SrcFile91>
+    <SrcFile92>Drivers\PinSettings.src=-1</SrcFile92>
+    <SrcFile93>Drivers\Common\KinetisSettings.inc=1183486427</SrcFile93>
+    <SrcFile94>Drivers\Common\fsl_uartAbstract.inc=-1</SrcFile94>
+    <SrcFile95>Drivers\Kinetis\1.2.0\fsl_sim_hal.drv=-1</SrcFile95>
   </UsedSrcFiles>
 </GenerationInfo_G_C>
 

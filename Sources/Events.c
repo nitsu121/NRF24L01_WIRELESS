@@ -143,6 +143,7 @@ void PIT0_IRQHandler(void)
 void FTM0_IRQHandler(void)
 {
   FTM_DRV_IRQHandler(FSL_FLEXTIMER1);
+
   /* Write your code here ... */
 }
 
@@ -165,6 +166,7 @@ void PIT1_IRQHandler(void)
   /* Write your code here ... */
 }
 
+/*! adConv1 IRQ handler */
 /* END Events */
 
 #ifdef __cplusplus

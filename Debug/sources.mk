@@ -40,12 +40,14 @@ SDK/platform/hal/src/mcg \
 SDK/platform/hal/src/gpio \
 SDK/platform/hal/src/ftm \
 SDK/platform/hal/src/dspi \
+SDK/platform/hal/src/adc16 \
 SDK/platform/drivers/src/uart \
 SDK/platform/drivers/src/rtc \
 SDK/platform/drivers/src/pit \
 SDK/platform/drivers/src/gpio \
 SDK/platform/drivers/src/ftm \
 SDK/platform/drivers/src/dspi \
+SDK/platform/drivers/src/adc16 \
 SDK/platform/devices \
 SDK/platform/devices/MK64F12/startup \
 SDK/platform/devices/MK64F12/startup/gcc \
