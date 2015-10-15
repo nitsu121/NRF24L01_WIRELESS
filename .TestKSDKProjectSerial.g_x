@@ -207,8 +207,8 @@
       <File Name="Generated_Code/board.h" FileDate="2015-08-27, 16:11:20" FileAge="1440709880014" FileType="45637" CompNumb="9" />
       <File Name="SDK/platform/drivers/src/dspi/fsl_dspi_shared_function.c" FileDate="2015-08-31, 18:10:46" FileAge="1441062646575" FileType="1048576" CompNumb="44" />
       <File Name="Generated_Code/pitTimer1.h" FileDate="2015-08-27, 16:48:48" FileAge="1440712128407" FileType="45637" CompNumb="30" />
-      <File Name="SDK/platform/drivers/src/dspi/fsl_dspi_slave_driver.c" FileDate="2015-08-31, 18:10:46" FileAge="1441062646580" FileType="1048576" CompNumb="44" />
       <File Name="SDK/platform/devices/fsl_device_registers.h" FileDate="2015-08-27, 12:41:33" FileAge="1440697293762" FileType="1048576" CompNumb="18" />
+      <File Name="SDK/platform/drivers/src/dspi/fsl_dspi_slave_driver.c" FileDate="2015-08-31, 18:10:46" FileAge="1441062646580" FileType="1048576" CompNumb="44" />
       <File Name="Generated_Code/pitTimer1.c" FileDate="2015-08-27, 16:48:48" FileAge="1440712128404" FileType="45637" CompNumb="30" />
       <File Name="SDK/platform/drivers/src/adc16/fsl_adc16_common.c" FileDate="2015-10-06, 09:10:25" FileAge="1444140625302" FileType="1048576" CompNumb="0" />
       <File Name="SDK/platform/drivers/inc/fsl_pit_driver.h" FileDate="2015-08-27, 16:48:48" FileAge="1440712128142" FileType="1048576" CompNumb="0" />
@@ -219,31 +219,31 @@
       <File Name="SDK/platform/drivers/src/ftm/fsl_ftm_driver.c" FileDate="2015-10-08, 19:00:08" FileAge="1444348808554" FileType="1048576" CompNumb="56" />
       <File Name="SDK/platform/devices/MK64F12/include/MK64F12_features.h" FileDate="2015-08-27, 12:41:33" FileAge="1440697293922" FileType="1048576" CompNumb="18" />
       <File Name="Generated_Code/dspiCom1.h" FileDate="2015-08-31, 18:10:46" FileAge="1441062646977" FileType="45637" CompNumb="44" />
-      <File Name="SDK/platform/devices/MK64F12/include/MK64F12.h" FileDate="2015-08-27, 12:41:33" FileAge="1440697293771" FileType="1048576" CompNumb="18" />
-      <File Name="Generated_Code/SERIAL1.h" FileDate="2015-08-27, 19:14:32" FileAge="1440720872724" FileType="45637" CompNumb="39" />
-      <File Name="SDK/platform/CMSIS/Include/arm_common_tables.h" FileDate="2015-08-27, 12:41:33" FileAge="1440697293754" FileType="1048576" CompNumb="18" />
       <File Name="SDK/platform/drivers/src/dspi/fsl_dspi_master_driver.c" FileDate="2015-08-31, 18:10:46" FileAge="1441062646537" FileType="1048576" CompNumb="44" />
+      <File Name="SDK/platform/CMSIS/Include/arm_common_tables.h" FileDate="2015-08-27, 12:41:33" FileAge="1440697293754" FileType="1048576" CompNumb="18" />
+      <File Name="Generated_Code/SERIAL1.h" FileDate="2015-08-27, 19:14:32" FileAge="1440720872724" FileType="45637" CompNumb="39" />
+      <File Name="SDK/platform/devices/MK64F12/include/MK64F12.h" FileDate="2015-08-27, 12:41:33" FileAge="1440697293771" FileType="1048576" CompNumb="18" />
       <File Name="Generated_Code/dspiCom1.c" FileDate="2015-09-03, 11:57:01" FileAge="1441299421423" FileType="45637" CompNumb="44" />
       <File Name="Generated_Code/SERIAL1.c" FileDate="2015-08-27, 20:49:34" FileAge="1440726574278" FileType="45637" CompNumb="39" />
-      <File Name="SDK/platform/osa/inc/fsl_os_abstraction_bm.h" FileDate="2015-08-27, 12:41:33" FileAge="1440697293698" FileType="1048576" CompNumb="14" />
       <File Name="SDK/platform/hal/src/pit/fsl_pit_hal.c" FileDate="2015-08-27, 16:48:48" FileAge="1440712128129" FileType="1048576" CompNumb="0" />
+      <File Name="SDK/platform/osa/inc/fsl_os_abstraction_bm.h" FileDate="2015-08-27, 12:41:33" FileAge="1440697293698" FileType="1048576" CompNumb="14" />
       <File Name="SDK/platform/hal/inc/fsl_gpio_hal.h" FileDate="2015-08-27, 15:33:29" FileAge="1440707609922" FileType="1048576" CompNumb="26" />
-      <File Name="SDK/platform/hal/src/osc/fsl_osc_hal.c" FileDate="2015-08-27, 12:41:33" FileAge="1440697293579" FileType="1048576" CompNumb="8" />
       <File Name="SDK/platform/system/inc/fsl_clock_manager.h" FileDate="2015-08-27, 12:41:33" FileAge="1440697293675" FileType="1048576" CompNumb="5" />
+      <File Name="SDK/platform/hal/src/osc/fsl_osc_hal.c" FileDate="2015-08-27, 12:41:33" FileAge="1440697293579" FileType="1048576" CompNumb="8" />
       <File Name="Documentation/doxygen/TestKSDKProjectSerial_project.txt" FileDate="2015-08-27, 12:41:34" FileAge="1440697294127" FileType="45637" CompNumb="18" />
       <File Name="SDK/platform/hal/inc/fsl_sim_hal.h" FileDate="2015-08-27, 12:41:33" FileAge="1440697293570" FileType="1048576" CompNumb="0" />
       <File Name="SDK/platform/devices/MK64F12/startup/system_MK64F12.c" FileDate="2015-08-27, 12:41:33" FileAge="1440697293934" FileType="1048576" CompNumb="18" />
       <File Name="SDK/platform/hal/inc/fsl_ftm_hal.h" FileDate="2015-10-08, 19:00:08" FileAge="1444348808547" FileType="1048576" CompNumb="57" />
-      <File Name="Generated_Code/gpio1.h" FileDate="2015-08-31, 18:10:47" FileAge="1441062647674" FileType="45637" CompNumb="25" />
       <File Name="SDK/platform/drivers/src/adc16/fsl_adc16_driver.c" FileDate="2015-10-06, 17:24:08" FileAge="1444170248685" FileType="1048576" CompNumb="0" />
+      <File Name="Generated_Code/gpio1.h" FileDate="2015-08-31, 18:10:47" FileAge="1441062647674" FileType="45637" CompNumb="25" />
       <File Name="SDK/platform/drivers/inc/fsl_ftm_driver.h" FileDate="2015-10-08, 19:00:08" FileAge="1444348808556" FileType="1048576" CompNumb="56" />
       <File Name="Generated_Code/gpio1.c" FileDate="2015-08-31, 18:12:01" FileAge="1441062721894" FileType="45637" CompNumb="25" />
-      <File Name="SDK/platform/osa/inc/fsl_os_abstraction.h" FileDate="2015-08-27, 12:41:33" FileAge="1440697293696" FileType="1048576" CompNumb="14" />
       <File Name="SDK/platform/hal/src/uart/fsl_uart_hal.c" FileDate="2015-08-27, 19:14:32" FileAge="1440720872368" FileType="1048576" CompNumb="40" />
-      <File Name="Sources/main.c" FileDate="2015-10-10, 02:21:20" FileAge="1444461680744" FileType="128" />
+      <File Name="SDK/platform/osa/inc/fsl_os_abstraction.h" FileDate="2015-08-27, 12:41:33" FileAge="1440697293696" FileType="1048576" CompNumb="14" />
+      <File Name="Sources/main.c" FileDate="2015-10-15, 11:06:00" FileAge="1444925160418" FileType="128" />
       <File Name="SDK/platform/hal/inc/fsl_dspi_hal.h" FileDate="2015-08-31, 18:10:46" FileAge="1441062646524" FileType="1048576" CompNumb="45" />
-      <File Name="SDK/platform/hal/src/sim/MK64F12/fsl_sim_hal_MK64F12.h" FileDate="2015-08-27, 12:41:33" FileAge="1440697293576" FileType="1048576" CompNumb="0" />
       <File Name="SDK/platform/hal/src/mcg/fsl_mcg_hal_modes.c" FileDate="2015-08-27, 12:41:33" FileAge="1440697293564" FileType="1048576" CompNumb="0" />
+      <File Name="SDK/platform/hal/src/sim/MK64F12/fsl_sim_hal_MK64F12.h" FileDate="2015-08-27, 12:41:33" FileAge="1440697293576" FileType="1048576" CompNumb="0" />
       <File Name="SDK/platform/CMSIS/Include/core_cmSimd.h" FileDate="2015-08-27, 12:41:33" FileAge="1440697293707" FileType="1048576" CompNumb="18" />
       <File Name="SDK/platform/devices/MK64F12/startup/gcc/startup_MK64F12.S" FileDate="2015-08-27, 12:41:33" FileAge="1440697293932" FileType="1048576" CompNumb="18" />
       <File Name="SDK/platform/hal/src/sim/MK64F12/fsl_sim_hal_MK64F12.c" FileDate="2015-08-27, 12:41:33" FileAge="1440697293574" FileType="1048576" CompNumb="0" />
@@ -253,5 +253,5 @@
       <File Name="Documentation/TestKSDKProjectSerial.txt" FileDate="2015-10-08, 19:00:10" FileAge="1444348810211" FileType="3072" />
     </GeneratedByPE>
   </GeneratedFilesList>
-  <CodeGenReference>57</CodeGenReference>
+  <CodeGenReference>58</CodeGenReference>
 </CodeGenerationInfo>

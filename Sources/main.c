@@ -223,12 +223,14 @@ int main(void)
 		  {
 			  GREEN_RGB_ON;
 			  ReadPayload(ReadArray, 5);
+#if 0
 			  Serial_Send_String("<");
 			  Delay_ms(10);
 			  UART_DRV_SendData(FSL_SERIAL1, ReadArray, 5);
 			  Delay_ms(10);
 			  Serial_Send_String("> ");
 			  Delay_ms(10);
+#endif
 			  Clear_NRF_Int_Flags();
 			  //Delay_ms(1000);
 		  }
